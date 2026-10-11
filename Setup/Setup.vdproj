@@ -1,0 +1,3510 @@
+﻿"DeployProject"
+{
+"VSVersion" = "3:800"
+"ProjectType" = "8:{978C614F-708E-4E1A-B201-565925725DBA}"
+"IsWebType" = "8:FALSE"
+"ProjectName" = "8:Setup"
+"LanguageId" = "3:1033"
+"CodePage" = "3:1252"
+"UILanguageId" = "3:1033"
+"SccProjectName" = "8:"
+"SccLocalPath" = "8:"
+"SccAuxPath" = "8:"
+"SccProvider" = "8:"
+    "Hierarchy"
+    {
+        "Entry"
+        {
+        "MsmKey" = "8:_014FC73D96A44E2D981E83E167DE6F1F"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_0575A06E13FA42A0961A3AA9D68569D5"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_06955F6977A24161BDB9CB8BC6E56334"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_0A9AE277AF5D4DDE9153ED276860950D"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_0B6937BB027E4C96B0AE9B511827C4D3"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_0C4C3F07CA4B478D96AAD8AD85EBBB84"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_0EF12B65E08444948EA7BAC1C2D73425"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_1318A8B37090E077F4979928B15A2C0F"
+        "OwnerKey" = "8:_C358E3FF17CCAA559911B8FF59ABA88A"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_19AF0C620A0FC1D46AC4ACF1CA2D47E1"
+        "OwnerKey" = "8:_DCAB9834AEDE47029D6F67347ABE299E"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_1CCF1449A6614E8E983F14C21FCE23F3"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_1DC9C67661DB40FA88ACDA34D6442240"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_1F87ABCD42B74A9E87D267A3A4F654C1"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_20BA91B0F2F64623B6E07F7A78CDF571"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_24D5A522417948829A9FB96E932CE0CA"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_35B6A5ECBD454648ADBF302AE51348D1"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_3C0EB111FEC85FADE86C281CF9DF75BF"
+        "OwnerKey" = "8:_DCAB9834AEDE47029D6F67347ABE299E"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_3F96F11795F647CD9D0EF996098A74A8"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_45E37016E36541528F3E2C283A2A6FE8"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_46901AE766E64CBFA9F4647A02B99962"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_46EBBFA471634360B4F5C3C1E5446323"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_488085BA73084B408F6BB8896F170E2A"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_490C1FD7F7A640119994845465148B71"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_49CD27F79911421DBCF5BB80FDD3BCD6"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_4AC8F0739D9E4AC9B2D64A8074A9AC26"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_4D5858EC2FF748BD812C3687A23114D9"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_507736F2E1EA4AB19EE7077ADA9A9D70"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_5214FBE95D6C41B9AB2C95AFF0F1ACF1"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_526CC9786571428AAB976A3F09767821"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_5292E474523449DAB53DACE95088672E"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_5295312C15BC4D84BF5810E2C0D2B7DE"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_53CE434431DB40AE8EBC35AEA4CDD802"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_56CB588DD59B4F2BBE28FB77575F701A"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_571160C408BB428BA5B2F3439CDD16CF"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_5C5F76AFADCC4BABBA995865D4F2A0AB"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_5CC4F9AACAA64AD9BF9F0E30DA82B13C"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_6502D974AFA34B73969051B1986A52D7"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_652FF2162453430FBD95B05E0183E749"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_657DBBD75DDC4127AE3C4961F6E20279"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_69CF6903997A4E4993DA7CC589CD67BD"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_6B0AED42B3264D98B76153617FAC804E"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_7080BE1A2EF0415FA6DB6141A19F20BF"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_74312D0998294F5AAACC6634568CD3F5"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_748D18345DEF4AA68097108407E56EEB"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_7597D3B15AE045A7A75F7AC32D8AD4BF"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_7CBE2254C36247FFA0BC3D7A201ADDA1"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_7CD1736EB5EF4EB0AE1B82BBB3BDBA89"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_98500774612B43CB808C7067792B2321"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_9F554F1C090E45DA815FC26AA9ECC0CF"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_A0216AED2F4F4681B8A896A85FBF8FF9"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_A3EB6CEC604D3DB64EA8AD1A8B6F2D9C"
+        "OwnerKey" = "8:_DCAB9834AEDE47029D6F67347ABE299E"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_A62A02816695400C8C2DD21EA61BDE72"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_AD2983A226E6499A844BE07916AC52BB"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_B58F1C1F4570440A80C36256FEFB61D5"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_B672CD4BB081499F9B63B063200721C8"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_B7CCA27C2EBC4AF0A7A44EC316E5F896"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_BA77F23CD9D748A08B6A798FD9457EAE"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_BABEA57BC0854DC8978A7358AFC41176"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_BD3F6562BA42414D8431A6E95C14164A"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_C11100BC0B2541F489D51B72BF662388"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_C1F51A569BE74382BCDEB7CFF3F55214"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_C1FFD9ADC7C346258D4E641B43323995"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_C28CCC5F6E1B40718DEBFD642B900F5B"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_C358E3FF17CCAA559911B8FF59ABA88A"
+        "OwnerKey" = "8:_DCAB9834AEDE47029D6F67347ABE299E"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_C6556886B5F54CD08198DB05D5D508B5"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_CB6B673E6CE94249A0B00D22A80B42E9"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_CD8F6B03449D4AEC9FD6D73C78D5042A"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_CE41AEBDD1B94375B92DA57CE59F5BC0"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_CE73D456C3E0457EBD7290CD365C2E01"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_D168CA4BACF34E58AC6656BDB1EBDE77"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_DB7E52A95D014B219C5566C5669D35C4"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_DCAB9834AEDE47029D6F67347ABE299E"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_DDC39C7481BB4BFB9CC12448C99C1B3F"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_DF48F319CB3C4177BA003D02C26F7E11"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_E4C5A4E4ECA14F0D8AA07C0BC229C778"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_E74BDEB21D7A4CD48E54EBDC37981C6A"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_E93465A2C4D64B758753C9BDCF074370"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_E93FE31CD44B4E1698260F75D79AAE35"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_E948D346E71248BAA917695264E0612F"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_EAA0E5D5F2A24CE38644C06A867AEFED"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_EB46EF28B7854F6DAC046BF4DC46F028"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_ECEDF59D17844BE5BC155E2CD4C0637B"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_EDDFDEECF2B7253F6314369635FC1736"
+        "OwnerKey" = "8:_DCAB9834AEDE47029D6F67347ABE299E"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_EFA9FEB1C34645DF9AE70F193496FF92"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_F57FECCB6F304680B99E89F6358D235E"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_FA4B5BD746DE422E9FD4794260113AD5"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_FB4C3E3FDB8E4B34AF51DA5C137C29BD"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_FCEDBB79813F453D88FCC203A8FC0559"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_FD6C0C4E75EE4E27899DA0E1C112D216"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_BABEA57BC0854DC8978A7358AFC41176"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_DCAB9834AEDE47029D6F67347ABE299E"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_EDDFDEECF2B7253F6314369635FC1736"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_C358E3FF17CCAA559911B8FF59ABA88A"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_1318A8B37090E077F4979928B15A2C0F"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_19AF0C620A0FC1D46AC4ACF1CA2D47E1"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_A3EB6CEC604D3DB64EA8AD1A8B6F2D9C"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_3C0EB111FEC85FADE86C281CF9DF75BF"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+    }
+    "Configurations"
+    {
+        "Debug"
+        {
+        "DisplayName" = "8:Debug"
+        "IsDebugOnly" = "11:TRUE"
+        "IsReleaseOnly" = "11:FALSE"
+        "OutputFilename" = "8:Debug\\Setup.msi"
+        "PackageFilesAs" = "3:2"
+        "PackageFileSize" = "3:-2147483648"
+        "CabType" = "3:1"
+        "Compression" = "3:2"
+        "SignOutput" = "11:FALSE"
+        "CertificateFile" = "8:"
+        "PrivateKeyFile" = "8:"
+        "TimeStampServer" = "8:"
+        "InstallerBootstrapper" = "3:2"
+            "BootstrapperCfg:{63ACBE69-63AA-4F98-B2B6-99F9E24495F2}"
+            {
+            "Enabled" = "11:TRUE"
+            "PromptEnabled" = "11:TRUE"
+            "PrerequisitesLocation" = "2:1"
+            "Url" = "8:"
+            "ComponentsUrl" = "8:"
+                "Items"
+                {
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:.NETFramework,Version=v4.7.2"
+                    {
+                    "Name" = "8:Microsoft .NET Framework 4.7.2 (x86 and x64)"
+                    "ProductCode" = "8:.NETFramework,Version=v4.7.2"
+                    }
+                }
+            }
+        }
+        "Release"
+        {
+        "DisplayName" = "8:Release"
+        "IsDebugOnly" = "11:FALSE"
+        "IsReleaseOnly" = "11:TRUE"
+        "OutputFilename" = "8:Release\\Setup.msi"
+        "PackageFilesAs" = "3:2"
+        "PackageFileSize" = "3:-2147483648"
+        "CabType" = "3:1"
+        "Compression" = "3:2"
+        "SignOutput" = "11:FALSE"
+        "CertificateFile" = "8:"
+        "PrivateKeyFile" = "8:"
+        "TimeStampServer" = "8:"
+        "InstallerBootstrapper" = "3:2"
+            "BootstrapperCfg:{63ACBE69-63AA-4F98-B2B6-99F9E24495F2}"
+            {
+            "Enabled" = "11:TRUE"
+            "PromptEnabled" = "11:TRUE"
+            "PrerequisitesLocation" = "2:1"
+            "Url" = "8:"
+            "ComponentsUrl" = "8:"
+            }
+        }
+    }
+    "Deployable"
+    {
+        "CustomAction"
+        {
+        }
+        "DefaultFeature"
+        {
+        "Name" = "8:DefaultFeature"
+        "Title" = "8:"
+        "Description" = "8:"
+        }
+        "ExternalPersistence"
+        {
+            "LaunchCondition"
+            {
+                "{A06ECF26-33A3-4562-8140-9B0E340D4F24}:_AA759BD709414C4CA2F2ACEC4BF8646B"
+                {
+                "Name" = "8:.NET Framework"
+                "Message" = "8:[VSDNETMSG]"
+                "FrameworkVersion" = "8:.NETFramework,Version=v4.7.2"
+                "AllowLaterVersions" = "11:FALSE"
+                "InstallUrl" = "8:http://go.microsoft.com/fwlink/?LinkId=863262"
+                }
+            }
+        }
+        "File"
+        {
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_014FC73D96A44E2D981E83E167DE6F1F"
+            {
+            "SourcePath" = "8:..\\Femix\\bin\\x64\\Debug\\Kitware.VTK.vtkGenericFiltering.Unmanaged.dll"
+            "TargetName" = "8:Kitware.VTK.vtkGenericFiltering.Unmanaged.dll"
+            "Tag" = "8:"
+            "Folder" = "8:_B6CFB3A8586B483999A7CC382F0B9E4C"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_0575A06E13FA42A0961A3AA9D68569D5"
+            {
+            "SourcePath" = "8:..\\Femix\\bin\\x64\\Debug\\msvcr90.dll"
+            "TargetName" = "8:msvcr90.dll"
+            "Tag" = "8:"
+            "Folder" = "8:_B6CFB3A8586B483999A7CC382F0B9E4C"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_06955F6977A24161BDB9CB8BC6E56334"
+            {
+            "SourcePath" = "8:..\\Femix\\bin\\x64\\Debug\\vtkproj4.dll"
+            "TargetName" = "8:vtkproj4.dll"
+            "Tag" = "8:"
+            "Folder" = "8:_B6CFB3A8586B483999A7CC382F0B9E4C"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_0A9AE277AF5D4DDE9153ED276860950D"
+            {
+            "SourcePath" = "8:..\\Femix\\bin\\x64\\Debug\\vtkVolumeRendering.dll"
+            "TargetName" = "8:vtkVolumeRendering.dll"
+            "Tag" = "8:"
+            "Folder" = "8:_B6CFB3A8586B483999A7CC382F0B9E4C"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_0B6937BB027E4C96B0AE9B511827C4D3"
+            {
+            "SourcePath" = "8:..\\Femix\\bin\\x64\\Debug\\vtkverdict.dll"
+            "TargetName" = "8:vtkverdict.dll"
+            "Tag" = "8:"
+            "Folder" = "8:_B6CFB3A8586B483999A7CC382F0B9E4C"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_0C4C3F07CA4B478D96AAD8AD85EBBB84"
+            {
+            "SourcePath" = "8:..\\Femix\\bin\\x64\\Debug\\Kitware.VTK.vtkGraphics.Unmanaged.dll"
+            "TargetName" = "8:Kitware.VTK.vtkGraphics.Unmanaged.dll"
+            "Tag" = "8:"
+            "Folder" = "8:_B6CFB3A8586B483999A7CC382F0B9E4C"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_0EF12B65E08444948EA7BAC1C2D73425"
+            {
+            "SourcePath" = "8:..\\Femix\\bin\\x64\\Debug\\Kitware.VTK.vtkViews.Unmanaged.dll"
+            "TargetName" = "8:Kitware.VTK.vtkViews.Unmanaged.dll"
+            "Tag" = "8:"
+            "Folder" = "8:_B6CFB3A8586B483999A7CC382F0B9E4C"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_1318A8B37090E077F4979928B15A2C0F"
+            {
+            "AssemblyRegister" = "3:1"
+            "AssemblyIsInGAC" = "11:FALSE"
+            "AssemblyAsmDisplayName" = "8:Kitware.mummy.Runtime, Version=1.0.2.599, Culture=neutral, PublicKeyToken=995c7fb9db2c1b44, processorArchitecture=AMD64"
+                "ScatterAssemblies"
+                {
+                    "_1318A8B37090E077F4979928B15A2C0F"
+                    {
+                    "Name" = "8:Kitware.mummy.Runtime.DLL"
+                    "Attributes" = "3:512"
+                    }
+                    "_79243D4A858EEDE4ABE28EEA08A0E38C"
+                    {
+                    "Name" = "8:Kitware.mummy.Runtime.Unmanaged.dll"
+                    "Attributes" = "3:1"
+                    }
+                }
+            "SourcePath" = "8:Kitware.mummy.Runtime.DLL"
+            "TargetName" = "8:"
+            "Tag" = "8:"
+            "Folder" = "8:_B6CFB3A8586B483999A7CC382F0B9E4C"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:TRUE"
+            "IsolateTo" = "8:"
+            }
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_19AF0C620A0FC1D46AC4ACF1CA2D47E1"
+            {
+            "AssemblyRegister" = "3:1"
+            "AssemblyIsInGAC" = "11:FALSE"
+            "AssemblyAsmDisplayName" = "8:intersection, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL"
+                "ScatterAssemblies"
+                {
+                    "_19AF0C620A0FC1D46AC4ACF1CA2D47E1"
+                    {
+                    "Name" = "8:intersection.DLL"
+                    "Attributes" = "3:512"
+                    }
+                }
+            "SourcePath" = "8:intersection.DLL"
+            "TargetName" = "8:"
+            "Tag" = "8:"
+            "Folder" = "8:_B6CFB3A8586B483999A7CC382F0B9E4C"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:TRUE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_1CCF1449A6614E8E983F14C21FCE23F3"
+            {
+            "SourcePath" = "8:..\\Femix\\bin\\x64\\Debug\\vtkNetCDF.dll"
+            "TargetName" = "8:vtkNetCDF.dll"
+            "Tag" = "8:"
+            "Folder" = "8:_B6CFB3A8586B483999A7CC382F0B9E4C"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_1DC9C67661DB40FA88ACDA34D6442240"
+            {
+            "SourcePath" = "8:..\\Femix\\bin\\x64\\Debug\\vtkalglib.dll"
+            "TargetName" = "8:vtkalglib.dll"
+            "Tag" = "8:"
+            "Folder" = "8:_B6CFB3A8586B483999A7CC382F0B9E4C"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_1F87ABCD42B74A9E87D267A3A4F654C1"
+            {
+            "SourcePath" = "8:..\\Femix\\bin\\x64\\Debug\\vtkInfovis.dll"
+            "TargetName" = "8:vtkInfovis.dll"
+            "Tag" = "8:"
+            "Folder" = "8:_B6CFB3A8586B483999A7CC382F0B9E4C"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_20BA91B0F2F64623B6E07F7A78CDF571"
+            {
+            "SourcePath" = "8:..\\Femix\\bin\\x64\\Debug\\image\\NLSMM101.png"
+            "TargetName" = "8:NLSMM101.png"
+            "Tag" = "8:"
+            "Folder" = "8:_9F11CBD8F6A440AFAD444A0E507D81FC"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_24D5A522417948829A9FB96E932CE0CA"
+            {
+            "SourcePath" = "8:..\\Femix\\bin\\x64\\Debug\\vtklibxml2.dll"
+            "TargetName" = "8:vtklibxml2.dll"
+            "Tag" = "8:"
+            "Folder" = "8:_B6CFB3A8586B483999A7CC382F0B9E4C"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_35B6A5ECBD454648ADBF302AE51348D1"
+            {
+            "SourcePath" = "8:..\\Femix\\bin\\x64\\Debug\\vtkzlib.dll"
+            "TargetName" = "8:vtkzlib.dll"
+            "Tag" = "8:"
+            "Folder" = "8:_B6CFB3A8586B483999A7CC382F0B9E4C"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_3C0EB111FEC85FADE86C281CF9DF75BF"
+            {
+            "AssemblyRegister" = "3:1"
+            "AssemblyIsInGAC" = "11:FALSE"
+            "AssemblyAsmDisplayName" = "8:FastColoredTextBox, Version=2.16.26.0, Culture=neutral, PublicKeyToken=fb8aa12b994ef61b, processorArchitecture=MSIL"
+                "ScatterAssemblies"
+                {
+                    "_3C0EB111FEC85FADE86C281CF9DF75BF"
+                    {
+                    "Name" = "8:FastColoredTextBox.DLL"
+                    "Attributes" = "3:512"
+                    }
+                }
+            "SourcePath" = "8:FastColoredTextBox.DLL"
+            "TargetName" = "8:"
+            "Tag" = "8:"
+            "Folder" = "8:_B6CFB3A8586B483999A7CC382F0B9E4C"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:TRUE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_3F96F11795F647CD9D0EF996098A74A8"
+            {
+            "SourcePath" = "8:..\\Femix\\bin\\x64\\Debug\\Material_library\\Linear_Isotropic_Materials\\Steel_Lin.mat"
+            "TargetName" = "8:Steel_Lin.mat"
+            "Tag" = "8:"
+            "Folder" = "8:_20A7C7A4C3FE4558A7C0F1C51111AA1A"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_45E37016E36541528F3E2C283A2A6FE8"
+            {
+            "SourcePath" = "8:..\\Femix\\bin\\x64\\Debug\\FemixExe\\Prefemix.exe"
+            "TargetName" = "8:Prefemix.exe"
+            "Tag" = "8:"
+            "Folder" = "8:_B8131DED64ED466F808BDA7A35B34221"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_46901AE766E64CBFA9F4647A02B99962"
+            {
+            "SourcePath" = "8:..\\Femix\\bin\\x64\\Debug\\vtkParallel.dll"
+            "TargetName" = "8:vtkParallel.dll"
+            "Tag" = "8:"
+            "Folder" = "8:_B6CFB3A8586B483999A7CC382F0B9E4C"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_46EBBFA471634360B4F5C3C1E5446323"
+            {
+            "SourcePath" = "8:..\\Femix\\bin\\x64\\Debug\\FemixExe\\Femix.exe"
+            "TargetName" = "8:Femix.exe"
+            "Tag" = "8:"
+            "Folder" = "8:_B8131DED64ED466F808BDA7A35B34221"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_488085BA73084B408F6BB8896F170E2A"
+            {
+            "SourcePath" = "8:..\\Femix\\bin\\x64\\Debug\\image\\NLMM104-5-LIN.png"
+            "TargetName" = "8:NLMM104-5-LIN.png"
+            "Tag" = "8:"
+            "Folder" = "8:_9F11CBD8F6A440AFAD444A0E507D81FC"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_490C1FD7F7A640119994845465148B71"
+            {
+            "SourcePath" = "8:..\\Femix\\bin\\x64\\Debug\\vtkDICOMParser.dll"
+            "TargetName" = "8:vtkDICOMParser.dll"
+            "Tag" = "8:"
+            "Folder" = "8:_B6CFB3A8586B483999A7CC382F0B9E4C"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_49CD27F79911421DBCF5BB80FDD3BCD6"
+            {
+            "SourcePath" = "8:..\\Femix\\bin\\x64\\Debug\\vtksys.dll"
+            "TargetName" = "8:vtksys.dll"
+            "Tag" = "8:"
+            "Folder" = "8:_B6CFB3A8586B483999A7CC382F0B9E4C"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_4AC8F0739D9E4AC9B2D64A8074A9AC26"
+            {
+            "SourcePath" = "8:..\\Femix\\bin\\x64\\Debug\\vtkCommon.dll"
+            "TargetName" = "8:vtkCommon.dll"
+            "Tag" = "8:"
+            "Folder" = "8:_B6CFB3A8586B483999A7CC382F0B9E4C"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_4D5858EC2FF748BD812C3687A23114D9"
+            {
+            "SourcePath" = "8:..\\Femix\\bin\\x64\\Debug\\vtkGraphics.dll"
+            "TargetName" = "8:vtkGraphics.dll"
+            "Tag" = "8:"
+            "Folder" = "8:_B6CFB3A8586B483999A7CC382F0B9E4C"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_507736F2E1EA4AB19EE7077ADA9A9D70"
+            {
+            "SourcePath" = "8:..\\Femix\\bin\\x64\\Debug\\Kitware.VTK.vtkVolumeRendering.Unmanaged.dll"
+            "TargetName" = "8:Kitware.VTK.vtkVolumeRendering.Unmanaged.dll"
+            "Tag" = "8:"
+            "Folder" = "8:_B6CFB3A8586B483999A7CC382F0B9E4C"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_5214FBE95D6C41B9AB2C95AFF0F1ACF1"
+            {
+            "SourcePath" = "8:..\\Femix\\bin\\x64\\Debug\\vtkexpat.dll"
+            "TargetName" = "8:vtkexpat.dll"
+            "Tag" = "8:"
+            "Folder" = "8:_B6CFB3A8586B483999A7CC382F0B9E4C"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_526CC9786571428AAB976A3F09767821"
+            {
+            "SourcePath" = "8:..\\Femix\\bin\\x64\\Debug\\vtkexoIIc.dll"
+            "TargetName" = "8:vtkexoIIc.dll"
+            "Tag" = "8:"
+            "Folder" = "8:_B6CFB3A8586B483999A7CC382F0B9E4C"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_5292E474523449DAB53DACE95088672E"
+            {
+            "SourcePath" = "8:..\\Femix\\bin\\x64\\Debug\\Femix PrePost.exe.config"
+            "TargetName" = "8:Femix PrePost.exe.config"
+            "Tag" = "8:"
+            "Folder" = "8:_B6CFB3A8586B483999A7CC382F0B9E4C"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_5295312C15BC4D84BF5810E2C0D2B7DE"
+            {
+            "SourcePath" = "8:..\\Femix\\bin\\x64\\Debug\\vtkIO.dll"
+            "TargetName" = "8:vtkIO.dll"
+            "Tag" = "8:"
+            "Folder" = "8:_B6CFB3A8586B483999A7CC382F0B9E4C"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_53CE434431DB40AE8EBC35AEA4CDD802"
+            {
+            "SourcePath" = "8:..\\Femix\\bin\\x64\\Debug\\image\\NLMM301.png"
+            "TargetName" = "8:NLMM301.png"
+            "Tag" = "8:"
+            "Folder" = "8:_9F11CBD8F6A440AFAD444A0E507D81FC"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_56CB588DD59B4F2BBE28FB77575F701A"
+            {
+            "SourcePath" = "8:..\\Femix\\bin\\x64\\Debug\\vtktiff.dll"
+            "TargetName" = "8:vtktiff.dll"
+            "Tag" = "8:"
+            "Folder" = "8:_B6CFB3A8586B483999A7CC382F0B9E4C"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_571160C408BB428BA5B2F3439CDD16CF"
+            {
+            "SourcePath" = "8:..\\Femix\\bin\\x64\\Debug\\FemixExe\\drawmesh.exe"
+            "TargetName" = "8:drawmesh.exe"
+            "Tag" = "8:"
+            "Folder" = "8:_B8131DED64ED466F808BDA7A35B34221"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_5C5F76AFADCC4BABBA995865D4F2A0AB"
+            {
+            "SourcePath" = "8:..\\Femix\\bin\\x64\\Debug\\Kitware.VTK.vtkCharts.Unmanaged.dll"
+            "TargetName" = "8:Kitware.VTK.vtkCharts.Unmanaged.dll"
+            "Tag" = "8:"
+            "Folder" = "8:_B6CFB3A8586B483999A7CC382F0B9E4C"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_5CC4F9AACAA64AD9BF9F0E30DA82B13C"
+            {
+            "SourcePath" = "8:..\\Femix\\bin\\x64\\Debug\\vtkCharts.dll"
+            "TargetName" = "8:vtkCharts.dll"
+            "Tag" = "8:"
+            "Folder" = "8:_B6CFB3A8586B483999A7CC382F0B9E4C"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_6502D974AFA34B73969051B1986A52D7"
+            {
+            "SourcePath" = "8:..\\Femix\\bin\\x64\\Debug\\image\\NLMM104-2-CORN.png"
+            "TargetName" = "8:NLMM104-2-CORN.png"
+            "Tag" = "8:"
+            "Folder" = "8:_9F11CBD8F6A440AFAD444A0E507D81FC"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_652FF2162453430FBD95B05E0183E749"
+            {
+            "SourcePath" = "8:..\\Femix\\bin\\x64\\Debug\\msvcp90.dll"
+            "TargetName" = "8:msvcp90.dll"
+            "Tag" = "8:"
+            "Folder" = "8:_B6CFB3A8586B483999A7CC382F0B9E4C"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_657DBBD75DDC4127AE3C4961F6E20279"
+            {
+            "SourcePath" = "8:..\\Femix\\bin\\x64\\Debug\\image\\NLMM201.png"
+            "TargetName" = "8:NLMM201.png"
+            "Tag" = "8:"
+            "Folder" = "8:_9F11CBD8F6A440AFAD444A0E507D81FC"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_69CF6903997A4E4993DA7CC589CD67BD"
+            {
+            "SourcePath" = "8:..\\Femix\\bin\\x64\\Debug\\image\\NLMM104-3.png"
+            "TargetName" = "8:NLMM104-3.png"
+            "Tag" = "8:"
+            "Folder" = "8:_9F11CBD8F6A440AFAD444A0E507D81FC"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_6B0AED42B3264D98B76153617FAC804E"
+            {
+            "SourcePath" = "8:..\\Femix\\bin\\x64\\Debug\\Kitware.VTK.vtkImaging.Unmanaged.dll"
+            "TargetName" = "8:Kitware.VTK.vtkImaging.Unmanaged.dll"
+            "Tag" = "8:"
+            "Folder" = "8:_B6CFB3A8586B483999A7CC382F0B9E4C"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_7080BE1A2EF0415FA6DB6141A19F20BF"
+            {
+            "SourcePath" = "8:..\\Femix\\bin\\x64\\Debug\\Kitware.VTK.xml"
+            "TargetName" = "8:Kitware.VTK.xml"
+            "Tag" = "8:"
+            "Folder" = "8:_B6CFB3A8586B483999A7CC382F0B9E4C"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_74312D0998294F5AAACC6634568CD3F5"
+            {
+            "SourcePath" = "8:..\\Femix\\bin\\x64\\Debug\\GMSH\\gmsh-4.8.dll"
+            "TargetName" = "8:gmsh-4.8.dll"
+            "Tag" = "8:"
+            "Folder" = "8:_DE3E80B308434202893101326F14F173"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_748D18345DEF4AA68097108407E56EEB"
+            {
+            "SourcePath" = "8:..\\Femix\\bin\\x64\\Debug\\vtkHybrid.dll"
+            "TargetName" = "8:vtkHybrid.dll"
+            "Tag" = "8:"
+            "Folder" = "8:_B6CFB3A8586B483999A7CC382F0B9E4C"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_7597D3B15AE045A7A75F7AC32D8AD4BF"
+            {
+            "SourcePath" = "8:..\\Femix\\bin\\x64\\Debug\\Cosmo.dll"
+            "TargetName" = "8:Cosmo.dll"
+            "Tag" = "8:"
+            "Folder" = "8:_B6CFB3A8586B483999A7CC382F0B9E4C"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_7CBE2254C36247FFA0BC3D7A201ADDA1"
+            {
+            "SourcePath" = "8:..\\Femix\\bin\\x64\\Debug\\Kitware.VTK.vtkFiltering.Unmanaged.dll"
+            "TargetName" = "8:Kitware.VTK.vtkFiltering.Unmanaged.dll"
+            "Tag" = "8:"
+            "Folder" = "8:_B6CFB3A8586B483999A7CC382F0B9E4C"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_7CD1736EB5EF4EB0AE1B82BBB3BDBA89"
+            {
+            "SourcePath" = "8:..\\Femix\\bin\\x64\\Debug\\GmshToFemix.pdb"
+            "TargetName" = "8:GmshToFemix.pdb"
+            "Tag" = "8:"
+            "Folder" = "8:_B6CFB3A8586B483999A7CC382F0B9E4C"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_98500774612B43CB808C7067792B2321"
+            {
+            "SourcePath" = "8:..\\Femix\\bin\\x64\\Debug\\image\\NLMM104-2-QUAD.png"
+            "TargetName" = "8:NLMM104-2-QUAD.png"
+            "Tag" = "8:"
+            "Folder" = "8:_9F11CBD8F6A440AFAD444A0E507D81FC"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_9F554F1C090E45DA815FC26AA9ECC0CF"
+            {
+            "SourcePath" = "8:..\\Femix\\bin\\x64\\Debug\\image\\NLMM104-5-TRI.png"
+            "TargetName" = "8:NLMM104-5-TRI.png"
+            "Tag" = "8:"
+            "Folder" = "8:_9F11CBD8F6A440AFAD444A0E507D81FC"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_A0216AED2F4F4681B8A896A85FBF8FF9"
+            {
+            "SourcePath" = "8:..\\Femix\\bin\\x64\\Debug\\vtkmetaio.dll"
+            "TargetName" = "8:vtkmetaio.dll"
+            "Tag" = "8:"
+            "Folder" = "8:_B6CFB3A8586B483999A7CC382F0B9E4C"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_A3EB6CEC604D3DB64EA8AD1A8B6F2D9C"
+            {
+            "AssemblyRegister" = "3:1"
+            "AssemblyIsInGAC" = "11:FALSE"
+            "AssemblyAsmDisplayName" = "8:GmshToFemix, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL"
+                "ScatterAssemblies"
+                {
+                    "_A3EB6CEC604D3DB64EA8AD1A8B6F2D9C"
+                    {
+                    "Name" = "8:GmshToFemix.DLL"
+                    "Attributes" = "3:512"
+                    }
+                }
+            "SourcePath" = "8:GmshToFemix.DLL"
+            "TargetName" = "8:"
+            "Tag" = "8:"
+            "Folder" = "8:_B6CFB3A8586B483999A7CC382F0B9E4C"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:TRUE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_A62A02816695400C8C2DD21EA61BDE72"
+            {
+            "SourcePath" = "8:..\\Femix\\bin\\x64\\Debug\\Kitware.VTK.vtkWidgets.Unmanaged.dll"
+            "TargetName" = "8:Kitware.VTK.vtkWidgets.Unmanaged.dll"
+            "Tag" = "8:"
+            "Folder" = "8:_B6CFB3A8586B483999A7CC382F0B9E4C"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_AD2983A226E6499A844BE07916AC52BB"
+            {
+            "SourcePath" = "8:..\\Femix\\bin\\x64\\Debug\\vtkWidgets.dll"
+            "TargetName" = "8:vtkWidgets.dll"
+            "Tag" = "8:"
+            "Folder" = "8:_B6CFB3A8586B483999A7CC382F0B9E4C"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_B58F1C1F4570440A80C36256FEFB61D5"
+            {
+            "SourcePath" = "8:..\\Femix\\bin\\x64\\Debug\\image\\NLMM141-1.png"
+            "TargetName" = "8:NLMM141-1.png"
+            "Tag" = "8:"
+            "Folder" = "8:_9F11CBD8F6A440AFAD444A0E507D81FC"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_B672CD4BB081499F9B63B063200721C8"
+            {
+            "SourcePath" = "8:..\\Femix\\bin\\x64\\Debug\\Femix PrePost.pdb"
+            "TargetName" = "8:Femix PrePost.pdb"
+            "Tag" = "8:"
+            "Folder" = "8:_B6CFB3A8586B483999A7CC382F0B9E4C"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_B7CCA27C2EBC4AF0A7A44EC316E5F896"
+            {
+            "SourcePath" = "8:..\\Femix\\bin\\x64\\Debug\\vtkImaging.dll"
+            "TargetName" = "8:vtkImaging.dll"
+            "Tag" = "8:"
+            "Folder" = "8:_B6CFB3A8586B483999A7CC382F0B9E4C"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_BA77F23CD9D748A08B6A798FD9457EAE"
+            {
+            "SourcePath" = "8:..\\Femix\\bin\\x64\\Debug\\image\\NLMM104-2-TRI.png"
+            "TargetName" = "8:NLMM104-2-TRI.png"
+            "Tag" = "8:"
+            "Folder" = "8:_9F11CBD8F6A440AFAD444A0E507D81FC"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_BABEA57BC0854DC8978A7358AFC41176"
+            {
+            "AssemblyRegister" = "3:1"
+            "AssemblyIsInGAC" = "11:FALSE"
+            "AssemblyAsmDisplayName" = "8:msvcm90, Version=9.0.30729.6161, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=AMD64"
+                "ScatterAssemblies"
+                {
+                    "_BABEA57BC0854DC8978A7358AFC41176"
+                    {
+                    "Name" = "8:msvcm90.dll"
+                    "Attributes" = "3:512"
+                    }
+                }
+            "SourcePath" = "8:..\\Femix\\bin\\x64\\Debug\\msvcm90.dll"
+            "TargetName" = "8:"
+            "Tag" = "8:"
+            "Folder" = "8:_B6CFB3A8586B483999A7CC382F0B9E4C"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_BD3F6562BA42414D8431A6E95C14164A"
+            {
+            "SourcePath" = "8:..\\Femix\\bin\\x64\\Debug\\Kitware.VTK.vtkIO.Unmanaged.dll"
+            "TargetName" = "8:Kitware.VTK.vtkIO.Unmanaged.dll"
+            "Tag" = "8:"
+            "Folder" = "8:_B6CFB3A8586B483999A7CC382F0B9E4C"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_C11100BC0B2541F489D51B72BF662388"
+            {
+            "SourcePath" = "8:..\\Femix\\bin\\x64\\Debug\\GMSH\\gmsh.exe"
+            "TargetName" = "8:gmsh.exe"
+            "Tag" = "8:"
+            "Folder" = "8:_DE3E80B308434202893101326F14F173"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_C1F51A569BE74382BCDEB7CFF3F55214"
+            {
+            "SourcePath" = "8:..\\Femix\\bin\\x64\\Debug\\image\\NLMM141-2.png"
+            "TargetName" = "8:NLMM141-2.png"
+            "Tag" = "8:"
+            "Folder" = "8:_9F11CBD8F6A440AFAD444A0E507D81FC"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_C1FFD9ADC7C346258D4E641B43323995"
+            {
+            "SourcePath" = "8:..\\Femix\\bin\\x64\\Debug\\VPIC.dll"
+            "TargetName" = "8:VPIC.dll"
+            "Tag" = "8:"
+            "Folder" = "8:_B6CFB3A8586B483999A7CC382F0B9E4C"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_C28CCC5F6E1B40718DEBFD642B900F5B"
+            {
+            "SourcePath" = "8:..\\Femix\\bin\\x64\\Debug\\Material_library\\NLMM104\\NLMM104_30.mat"
+            "TargetName" = "8:NLMM104_30.mat"
+            "Tag" = "8:"
+            "Folder" = "8:_4E127A43BB01406CBAD158D0F96D3070"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_C358E3FF17CCAA559911B8FF59ABA88A"
+            {
+            "AssemblyRegister" = "3:1"
+            "AssemblyIsInGAC" = "11:FALSE"
+            "AssemblyAsmDisplayName" = "8:Kitware.VTK, Version=5.8.0.607, Culture=neutral, PublicKeyToken=995c7fb9db2c1b44, processorArchitecture=AMD64"
+                "ScatterAssemblies"
+                {
+                    "_07F25D8A0DC9732505736C0D34D3244F"
+                    {
+                    "Name" = "8:Kitware.VTK.vtkInfovis.Unmanaged.dll"
+                    "Attributes" = "3:1"
+                    }
+                    "_0A8998B60EB957F7FD7F8EE699A747F2"
+                    {
+                    "Name" = "8:vtkGraphics.dll"
+                    "Attributes" = "3:1"
+                    }
+                    "_100FF8E76C92614570ABAA51990EA5F5"
+                    {
+                    "Name" = "8:vtkViews.dll"
+                    "Attributes" = "3:1"
+                    }
+                    "_112202833C06EC947DA643E9D918CAFA"
+                    {
+                    "Name" = "8:vtkalglib.dll"
+                    "Attributes" = "3:1"
+                    }
+                    "_1EC1F3D9939D57267DB6E27805B03E4C"
+                    {
+                    "Name" = "8:vtkIO.dll"
+                    "Attributes" = "3:1"
+                    }
+                    "_20763B06131037BACD58BB10D3DA303C"
+                    {
+                    "Name" = "8:vtkWidgets.dll"
+                    "Attributes" = "3:1"
+                    }
+                    "_3C8DEE6D80C9C8D4788DDFC257B88B84"
+                    {
+                    "Name" = "8:msvcm90.dll"
+                    "Attributes" = "3:1"
+                    }
+                    "_4C1B4AC1E823D740245B25AB4D04D6AE"
+                    {
+                    "Name" = "8:vtkCharts.dll"
+                    "Attributes" = "3:1"
+                    }
+                    "_5FD61CE17AE25F2B0DD52AC79D89B1A4"
+                    {
+                    "Name" = "8:vtkParallel.dll"
+                    "Attributes" = "3:1"
+                    }
+                    "_6BD2B01FA5CE0B79C416EE4BAD4DE8B1"
+                    {
+                    "Name" = "8:Kitware.VTK.vtkIO.Unmanaged.dll"
+                    "Attributes" = "3:1"
+                    }
+                    "_6C63189C638031A5F70AE50B41689DFF"
+                    {
+                    "Name" = "8:vtkzlib.dll"
+                    "Attributes" = "3:1"
+                    }
+                    "_6DD57719FCC056BE7DD9593DC3E3D814"
+                    {
+                    "Name" = "8:vtklibxml2.dll"
+                    "Attributes" = "3:1"
+                    }
+                    "_6E2E7DA5AAE86C558A44CD4545C474F8"
+                    {
+                    "Name" = "8:vtkDICOMParser.dll"
+                    "Attributes" = "3:1"
+                    }
+                    "_6F68F782FB6D820A2B1313D07DD1E378"
+                    {
+                    "Name" = "8:Kitware.VTK.vtkFiltering.Unmanaged.dll"
+                    "Attributes" = "3:1"
+                    }
+                    "_77BA01B6AEB0688343002FE7B6F7D498"
+                    {
+                    "Name" = "8:Kitware.VTK.vtkVolumeRendering.Unmanaged.dll"
+                    "Attributes" = "3:1"
+                    }
+                    "_929D45EEEBF357A5F8780F2507B94ED5"
+                    {
+                    "Name" = "8:vtktiff.dll"
+                    "Attributes" = "3:1"
+                    }
+                    "_92C9A4AD232B13B87F93CA9B9B4C224C"
+                    {
+                    "Name" = "8:vtkInfovis.dll"
+                    "Attributes" = "3:1"
+                    }
+                    "_95A94862208806B660F8928030015A61"
+                    {
+                    "Name" = "8:vtkpng.dll"
+                    "Attributes" = "3:1"
+                    }
+                    "_972A904B5EB6CD6AD7D05A22320C48F9"
+                    {
+                    "Name" = "8:vtkHybrid.dll"
+                    "Attributes" = "3:1"
+                    }
+                    "_9B09BFC0259A95101321CE6CFE2E597A"
+                    {
+                    "Name" = "8:vtkGeovis.dll"
+                    "Attributes" = "3:1"
+                    }
+                    "_9F09856FAF3FCA20F44016392B8A6C85"
+                    {
+                    "Name" = "8:vtkfreetype.dll"
+                    "Attributes" = "3:1"
+                    }
+                    "_A2A7778117351CE8985BCED9BBF66040"
+                    {
+                    "Name" = "8:vtksys.dll"
+                    "Attributes" = "3:1"
+                    }
+                    "_A4A2A0E8D0EF6D91EEB0ABFB88DFEE10"
+                    {
+                    "Name" = "8:vtkRendering.dll"
+                    "Attributes" = "3:1"
+                    }
+                    "_AD93AED0033D3AB0F845060BBECDF1D7"
+                    {
+                    "Name" = "8:msvcp90.dll"
+                    "Attributes" = "3:1"
+                    }
+                    "_B17E755F778D1570E92F5920E97CDDE8"
+                    {
+                    "Name" = "8:vtkjpeg.dll"
+                    "Attributes" = "3:1"
+                    }
+                    "_B29D06647A17D1946C6046EE92630489"
+                    {
+                    "Name" = "8:vtkmetaio.dll"
+                    "Attributes" = "3:1"
+                    }
+                    "_B5B8B5CEF80F90A067245A38BEC63FDC"
+                    {
+                    "Name" = "8:Microsoft.VC90.CRT.manifest"
+                    "Attributes" = "3:1"
+                    }
+                    "_BB69353943D8D3B39AC52DE23D559921"
+                    {
+                    "Name" = "8:vtkverdict.dll"
+                    "Attributes" = "3:1"
+                    }
+                    "_BCCF9439A7A925AA7A0836258911AE4C"
+                    {
+                    "Name" = "8:Kitware.VTK.vtkGenericFiltering.Unmanaged.dll"
+                    "Attributes" = "3:1"
+                    }
+                    "_BEE86C7AD604982D9FE05E2BD379FDCB"
+                    {
+                    "Name" = "8:vtkproj4.dll"
+                    "Attributes" = "3:1"
+                    }
+                    "_C1B6AB4F31BFF6C83D38F2DC9E6FFC3A"
+                    {
+                    "Name" = "8:Kitware.VTK.vtkCommon.Unmanaged.dll"
+                    "Attributes" = "3:1"
+                    }
+                    "_C358E3FF17CCAA559911B8FF59ABA88A"
+                    {
+                    "Name" = "8:Kitware.VTK.DLL"
+                    "Attributes" = "3:512"
+                    }
+                    "_C398A0E01CB2DFE1ECE4083FEB52E16A"
+                    {
+                    "Name" = "8:vtkGenericFiltering.dll"
+                    "Attributes" = "3:1"
+                    }
+                    "_C7E1FB9DF9D156463D1F304AF21B6473"
+                    {
+                    "Name" = "8:Kitware.VTK.vtkHybrid.Unmanaged.dll"
+                    "Attributes" = "3:1"
+                    }
+                    "_C94E4C774A4546FB06A681E863EAE480"
+                    {
+                    "Name" = "8:vtkNetCDF_cxx.dll"
+                    "Attributes" = "3:1"
+                    }
+                    "_CD074DEDA2DA2AA9C2EB9E2EDFB00F74"
+                    {
+                    "Name" = "8:Kitware.VTK.vtkCharts.Unmanaged.dll"
+                    "Attributes" = "3:1"
+                    }
+                    "_CD2A22FC4123B1B0F1B236C38F27F0D5"
+                    {
+                    "Name" = "8:Kitware.VTK.vtkImaging.Unmanaged.dll"
+                    "Attributes" = "3:1"
+                    }
+                    "_CF86DE5C7F5AF6E911A7DAEF510FA223"
+                    {
+                    "Name" = "8:vtkexoIIc.dll"
+                    "Attributes" = "3:1"
+                    }
+                    "_D7968CF900DA628A428F20A53E40E42F"
+                    {
+                    "Name" = "8:vtkImaging.dll"
+                    "Attributes" = "3:1"
+                    }
+                    "_DA06637B519F400BC4EE11ED9A9F959C"
+                    {
+                    "Name" = "8:vtkexpat.dll"
+                    "Attributes" = "3:1"
+                    }
+                    "_DA26F450B1EDA10C8841AFE0315D35DB"
+                    {
+                    "Name" = "8:msvcr90.dll"
+                    "Attributes" = "3:1"
+                    }
+                    "_DC34B0721C42EBBDD3487729C531FBF7"
+                    {
+                    "Name" = "8:Kitware.VTK.vtkGeovis.Unmanaged.dll"
+                    "Attributes" = "3:1"
+                    }
+                    "_DC64A0A0B9624593010922AF3A7B8841"
+                    {
+                    "Name" = "8:vtkFiltering.dll"
+                    "Attributes" = "3:1"
+                    }
+                    "_E0B2F38EF7E092E4074C7F683398BC8E"
+                    {
+                    "Name" = "8:vtkNetCDF.dll"
+                    "Attributes" = "3:1"
+                    }
+                    "_E759A9C0FD0525E61E58902CE70A7C93"
+                    {
+                    "Name" = "8:vtkCommon.dll"
+                    "Attributes" = "3:1"
+                    }
+                    "_E94E9D4C27820F55282358458E10B8DB"
+                    {
+                    "Name" = "8:vtkftgl.dll"
+                    "Attributes" = "3:1"
+                    }
+                    "_E9561FCEB6C30F3200F8485EE16B2F70"
+                    {
+                    "Name" = "8:Cosmo.dll"
+                    "Attributes" = "3:1"
+                    }
+                    "_EE9B7E14674960E74B3070AA0A000609"
+                    {
+                    "Name" = "8:Kitware.VTK.vtkParallel.Unmanaged.dll"
+                    "Attributes" = "3:1"
+                    }
+                    "_EF6594DFBA29E34AB6D19817C3121DBA"
+                    {
+                    "Name" = "8:Kitware.VTK.vtkRendering.Unmanaged.dll"
+                    "Attributes" = "3:1"
+                    }
+                    "_F1BBDF2B3770EA2A123EE3116976F1D1"
+                    {
+                    "Name" = "8:Kitware.VTK.vtkViews.Unmanaged.dll"
+                    "Attributes" = "3:1"
+                    }
+                    "_F673E20A5549AB9E46D63618B2C2299E"
+                    {
+                    "Name" = "8:VPIC.dll"
+                    "Attributes" = "3:1"
+                    }
+                    "_FBAAA987BEC04EDF36B4A9ADC2B5EA18"
+                    {
+                    "Name" = "8:vtkVolumeRendering.dll"
+                    "Attributes" = "3:1"
+                    }
+                    "_FD556E0C5FFD74873B9369560BBBB3EC"
+                    {
+                    "Name" = "8:Kitware.VTK.vtkWidgets.Unmanaged.dll"
+                    "Attributes" = "3:1"
+                    }
+                    "_FFC6660C7E7931CD907835ED6422A75F"
+                    {
+                    "Name" = "8:Kitware.VTK.vtkGraphics.Unmanaged.dll"
+                    "Attributes" = "3:1"
+                    }
+                }
+            "SourcePath" = "8:Kitware.VTK.DLL"
+            "TargetName" = "8:"
+            "Tag" = "8:"
+            "Folder" = "8:_B6CFB3A8586B483999A7CC382F0B9E4C"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:TRUE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_C6556886B5F54CD08198DB05D5D508B5"
+            {
+            "SourcePath" = "8:..\\Femix\\bin\\x64\\Debug\\Kitware.VTK.vtkInfovis.Unmanaged.dll"
+            "TargetName" = "8:Kitware.VTK.vtkInfovis.Unmanaged.dll"
+            "Tag" = "8:"
+            "Folder" = "8:_B6CFB3A8586B483999A7CC382F0B9E4C"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_CB6B673E6CE94249A0B00D22A80B42E9"
+            {
+            "SourcePath" = "8:..\\Femix\\bin\\x64\\Debug\\Kitware.VTK.vtkCommon.Unmanaged.dll"
+            "TargetName" = "8:Kitware.VTK.vtkCommon.Unmanaged.dll"
+            "Tag" = "8:"
+            "Folder" = "8:_B6CFB3A8586B483999A7CC382F0B9E4C"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_CD8F6B03449D4AEC9FD6D73C78D5042A"
+            {
+            "SourcePath" = "8:..\\Femix\\bin\\x64\\Debug\\vtkGeovis.dll"
+            "TargetName" = "8:vtkGeovis.dll"
+            "Tag" = "8:"
+            "Folder" = "8:_B6CFB3A8586B483999A7CC382F0B9E4C"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_CE41AEBDD1B94375B92DA57CE59F5BC0"
+            {
+            "SourcePath" = "8:..\\Femix\\bin\\x64\\Debug\\Microsoft.VC90.CRT.manifest"
+            "TargetName" = "8:Microsoft.VC90.CRT.manifest"
+            "Tag" = "8:"
+            "Folder" = "8:_B6CFB3A8586B483999A7CC382F0B9E4C"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_CE73D456C3E0457EBD7290CD365C2E01"
+            {
+            "SourcePath" = "8:..\\Femix\\bin\\x64\\Debug\\Kitware.VTK.vtkHybrid.Unmanaged.dll"
+            "TargetName" = "8:Kitware.VTK.vtkHybrid.Unmanaged.dll"
+            "Tag" = "8:"
+            "Folder" = "8:_B6CFB3A8586B483999A7CC382F0B9E4C"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_D168CA4BACF34E58AC6656BDB1EBDE77"
+            {
+            "SourcePath" = "8:..\\Femix\\bin\\x64\\Debug\\vtkfreetype.dll"
+            "TargetName" = "8:vtkfreetype.dll"
+            "Tag" = "8:"
+            "Folder" = "8:_B6CFB3A8586B483999A7CC382F0B9E4C"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_DB7E52A95D014B219C5566C5669D35C4"
+            {
+            "SourcePath" = "8:..\\Femix\\bin\\x64\\Debug\\Kitware.VTK.vtkRendering.Unmanaged.dll"
+            "TargetName" = "8:Kitware.VTK.vtkRendering.Unmanaged.dll"
+            "Tag" = "8:"
+            "Folder" = "8:_B6CFB3A8586B483999A7CC382F0B9E4C"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_DCAB9834AEDE47029D6F67347ABE299E"
+            {
+            "AssemblyRegister" = "3:1"
+            "AssemblyIsInGAC" = "11:FALSE"
+            "AssemblyAsmDisplayName" = "8:Femix PrePost, Version=1.0.0.0, Culture=neutral, processorArchitecture=AMD64"
+                "ScatterAssemblies"
+                {
+                    "_DCAB9834AEDE47029D6F67347ABE299E"
+                    {
+                    "Name" = "8:Femix PrePost.exe"
+                    "Attributes" = "3:512"
+                    }
+                }
+            "SourcePath" = "8:..\\Femix\\bin\\x64\\Debug\\Femix PrePost.exe"
+            "TargetName" = "8:"
+            "Tag" = "8:"
+            "Folder" = "8:_B6CFB3A8586B483999A7CC382F0B9E4C"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_DDC39C7481BB4BFB9CC12448C99C1B3F"
+            {
+            "SourcePath" = "8:..\\Femix\\bin\\x64\\Debug\\FemixExe\\Posfemix.exe"
+            "TargetName" = "8:Posfemix.exe"
+            "Tag" = "8:"
+            "Folder" = "8:_B8131DED64ED466F808BDA7A35B34221"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_DF48F319CB3C4177BA003D02C26F7E11"
+            {
+            "SourcePath" = "8:..\\Femix\\bin\\x64\\Debug\\vtkjpeg.dll"
+            "TargetName" = "8:vtkjpeg.dll"
+            "Tag" = "8:"
+            "Folder" = "8:_B6CFB3A8586B483999A7CC382F0B9E4C"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_E4C5A4E4ECA14F0D8AA07C0BC229C778"
+            {
+            "SourcePath" = "8:..\\Femix\\bin\\x64\\Debug\\vtkpng.dll"
+            "TargetName" = "8:vtkpng.dll"
+            "Tag" = "8:"
+            "Folder" = "8:_B6CFB3A8586B483999A7CC382F0B9E4C"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_E74BDEB21D7A4CD48E54EBDC37981C6A"
+            {
+            "SourcePath" = "8:..\\Femix\\bin\\x64\\Debug\\vtkRendering.dll"
+            "TargetName" = "8:vtkRendering.dll"
+            "Tag" = "8:"
+            "Folder" = "8:_B6CFB3A8586B483999A7CC382F0B9E4C"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_E93465A2C4D64B758753C9BDCF074370"
+            {
+            "SourcePath" = "8:..\\Femix\\bin\\x64\\Debug\\vtkFiltering.dll"
+            "TargetName" = "8:vtkFiltering.dll"
+            "Tag" = "8:"
+            "Folder" = "8:_B6CFB3A8586B483999A7CC382F0B9E4C"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_E93FE31CD44B4E1698260F75D79AAE35"
+            {
+            "SourcePath" = "8:..\\Femix\\bin\\x64\\Debug\\vtkViews.dll"
+            "TargetName" = "8:vtkViews.dll"
+            "Tag" = "8:"
+            "Folder" = "8:_B6CFB3A8586B483999A7CC382F0B9E4C"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_E948D346E71248BAA917695264E0612F"
+            {
+            "SourcePath" = "8:..\\Femix\\bin\\x64\\Debug\\vtkNetCDF_cxx.dll"
+            "TargetName" = "8:vtkNetCDF_cxx.dll"
+            "Tag" = "8:"
+            "Folder" = "8:_B6CFB3A8586B483999A7CC382F0B9E4C"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_EAA0E5D5F2A24CE38644C06A867AEFED"
+            {
+            "SourcePath" = "8:..\\Femix\\bin\\x64\\Debug\\Kitware.mummy.Runtime.Unmanaged.dll"
+            "TargetName" = "8:Kitware.mummy.Runtime.Unmanaged.dll"
+            "Tag" = "8:"
+            "Folder" = "8:_B6CFB3A8586B483999A7CC382F0B9E4C"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_EB46EF28B7854F6DAC046BF4DC46F028"
+            {
+            "SourcePath" = "8:..\\Femix\\bin\\x64\\Debug\\Kitware.VTK.vtkParallel.Unmanaged.dll"
+            "TargetName" = "8:Kitware.VTK.vtkParallel.Unmanaged.dll"
+            "Tag" = "8:"
+            "Folder" = "8:_B6CFB3A8586B483999A7CC382F0B9E4C"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_ECEDF59D17844BE5BC155E2CD4C0637B"
+            {
+            "SourcePath" = "8:..\\Femix\\bin\\x64\\Debug\\intersection.pdb"
+            "TargetName" = "8:intersection.pdb"
+            "Tag" = "8:"
+            "Folder" = "8:_B6CFB3A8586B483999A7CC382F0B9E4C"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_EDDFDEECF2B7253F6314369635FC1736"
+            {
+            "AssemblyRegister" = "3:1"
+            "AssemblyIsInGAC" = "11:FALSE"
+            "AssemblyAsmDisplayName" = "8:ZedGraph, Version=5.0.9.41461, Culture=neutral, PublicKeyToken=02a83cbd123fcd60, processorArchitecture=MSIL"
+                "ScatterAssemblies"
+                {
+                    "_EDDFDEECF2B7253F6314369635FC1736"
+                    {
+                    "Name" = "8:ZedGraph.DLL"
+                    "Attributes" = "3:512"
+                    }
+                }
+            "SourcePath" = "8:ZedGraph.DLL"
+            "TargetName" = "8:"
+            "Tag" = "8:"
+            "Folder" = "8:_B6CFB3A8586B483999A7CC382F0B9E4C"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:TRUE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_EFA9FEB1C34645DF9AE70F193496FF92"
+            {
+            "SourcePath" = "8:..\\Femix\\bin\\x64\\Debug\\image\\NLSMM102.png"
+            "TargetName" = "8:NLSMM102.png"
+            "Tag" = "8:"
+            "Folder" = "8:_9F11CBD8F6A440AFAD444A0E507D81FC"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_F57FECCB6F304680B99E89F6358D235E"
+            {
+            "SourcePath" = "8:..\\Femix\\bin\\x64\\Debug\\vtkGenericFiltering.dll"
+            "TargetName" = "8:vtkGenericFiltering.dll"
+            "Tag" = "8:"
+            "Folder" = "8:_B6CFB3A8586B483999A7CC382F0B9E4C"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_FA4B5BD746DE422E9FD4794260113AD5"
+            {
+            "SourcePath" = "8:..\\Femix\\bin\\x64\\Debug\\Kitware.VTK.vtkGeovis.Unmanaged.dll"
+            "TargetName" = "8:Kitware.VTK.vtkGeovis.Unmanaged.dll"
+            "Tag" = "8:"
+            "Folder" = "8:_B6CFB3A8586B483999A7CC382F0B9E4C"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_FB4C3E3FDB8E4B34AF51DA5C137C29BD"
+            {
+            "SourcePath" = "8:..\\Femix\\bin\\x64\\Debug\\FastColoredTextBox.xml"
+            "TargetName" = "8:FastColoredTextBox.xml"
+            "Tag" = "8:"
+            "Folder" = "8:_B6CFB3A8586B483999A7CC382F0B9E4C"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_FCEDBB79813F453D88FCC203A8FC0559"
+            {
+            "SourcePath" = "8:..\\Femix\\bin\\x64\\Debug\\image\\NLMM104-5-CORN.png"
+            "TargetName" = "8:NLMM104-5-CORN.png"
+            "Tag" = "8:"
+            "Folder" = "8:_9F11CBD8F6A440AFAD444A0E507D81FC"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_FD6C0C4E75EE4E27899DA0E1C112D216"
+            {
+            "SourcePath" = "8:..\\Femix\\bin\\x64\\Debug\\vtkftgl.dll"
+            "TargetName" = "8:vtkftgl.dll"
+            "Tag" = "8:"
+            "Folder" = "8:_B6CFB3A8586B483999A7CC382F0B9E4C"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+        }
+        "FileType"
+        {
+        }
+        "Folder"
+        {
+            "{1525181F-901A-416C-8A58-119130FE478E}:_34DC945859C341DEA8A9F63E541FDDB2"
+            {
+            "Name" = "8:#1919"
+            "AlwaysCreate" = "11:FALSE"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Property" = "8:ProgramMenuFolder"
+                "Folders"
+                {
+                }
+            }
+            "{1525181F-901A-416C-8A58-119130FE478E}:_8C1E1734F6534F9FB02FACF3C105F1F8"
+            {
+            "Name" = "8:#1916"
+            "AlwaysCreate" = "11:FALSE"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Property" = "8:DesktopFolder"
+                "Folders"
+                {
+                }
+            }
+            "{3C67513D-01DD-4637-8A68-80971EB9504F}:_B6CFB3A8586B483999A7CC382F0B9E4C"
+            {
+            "DefaultLocation" = "8:[ProgramFiles64Folder]\\[ProductName]"
+            "Name" = "8:#1925"
+            "AlwaysCreate" = "11:FALSE"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Property" = "8:TARGETDIR"
+                "Folders"
+                {
+                    "{9EF0B969-E518-4E46-987F-47570745A589}:_8F213FDEED99477C86403391E98D11C4"
+                    {
+                    "Name" = "8:Material_library"
+                    "AlwaysCreate" = "11:FALSE"
+                    "Condition" = "8:"
+                    "Transitive" = "11:FALSE"
+                    "Property" = "8:_1674AA4EC6CC4301A7D26D0F987A622A"
+                        "Folders"
+                        {
+                            "{9EF0B969-E518-4E46-987F-47570745A589}:_05CF0E09F5D94D518E00E8109FC71116"
+                            {
+                            "Name" = "8:NLMM101"
+                            "AlwaysCreate" = "11:FALSE"
+                            "Condition" = "8:"
+                            "Transitive" = "11:FALSE"
+                            "Property" = "8:_D297B854CB5D4E54AA58EF2CB02945E6"
+                                "Folders"
+                                {
+                                }
+                            }
+                            "{9EF0B969-E518-4E46-987F-47570745A589}:_20A7C7A4C3FE4558A7C0F1C51111AA1A"
+                            {
+                            "Name" = "8:Linear_Isotropic_Materials"
+                            "AlwaysCreate" = "11:FALSE"
+                            "Condition" = "8:"
+                            "Transitive" = "11:FALSE"
+                            "Property" = "8:_CCAD7F138A0548BD8A23B4487124BBAF"
+                                "Folders"
+                                {
+                                }
+                            }
+                            "{9EF0B969-E518-4E46-987F-47570745A589}:_2FF223E2AF534854A4C848DFE3B0D04A"
+                            {
+                            "Name" = "8:NLMM111"
+                            "AlwaysCreate" = "11:FALSE"
+                            "Condition" = "8:"
+                            "Transitive" = "11:FALSE"
+                            "Property" = "8:_D35A61EF9C4B49ADB894FC48C36F9E3E"
+                                "Folders"
+                                {
+                                }
+                            }
+                            "{9EF0B969-E518-4E46-987F-47570745A589}:_4E127A43BB01406CBAD158D0F96D3070"
+                            {
+                            "Name" = "8:NLMM104"
+                            "AlwaysCreate" = "11:FALSE"
+                            "Condition" = "8:"
+                            "Transitive" = "11:FALSE"
+                            "Property" = "8:_62A3DC4D351E4C5DA79948CC47C07D3B"
+                                "Folders"
+                                {
+                                }
+                            }
+                            "{9EF0B969-E518-4E46-987F-47570745A589}:_B9FC4AB71D9C40F28D731E809D07BC61"
+                            {
+                            "Name" = "8:NLMM151"
+                            "AlwaysCreate" = "11:FALSE"
+                            "Condition" = "8:"
+                            "Transitive" = "11:FALSE"
+                            "Property" = "8:_1898DAFDAB1F453694DAE365B28FBF55"
+                                "Folders"
+                                {
+                                }
+                            }
+                            "{9EF0B969-E518-4E46-987F-47570745A589}:_C4A74DCFFD3543149137F5720BC79367"
+                            {
+                            "Name" = "8:NLMM201"
+                            "AlwaysCreate" = "11:FALSE"
+                            "Condition" = "8:"
+                            "Transitive" = "11:FALSE"
+                            "Property" = "8:_FDCFA43953184F94990D0131BBE8B7E4"
+                                "Folders"
+                                {
+                                }
+                            }
+                            "{9EF0B969-E518-4E46-987F-47570745A589}:_F4C3D25BAA5049E395043A14BE716B45"
+                            {
+                            "Name" = "8:NLMM141"
+                            "AlwaysCreate" = "11:FALSE"
+                            "Condition" = "8:"
+                            "Transitive" = "11:FALSE"
+                            "Property" = "8:_6E7519809BAB42B185D09AEDBFD07CF9"
+                                "Folders"
+                                {
+                                }
+                            }
+                        }
+                    }
+                    "{9EF0B969-E518-4E46-987F-47570745A589}:_9F11CBD8F6A440AFAD444A0E507D81FC"
+                    {
+                    "Name" = "8:image"
+                    "AlwaysCreate" = "11:FALSE"
+                    "Condition" = "8:"
+                    "Transitive" = "11:FALSE"
+                    "Property" = "8:_9B423BABADE14047A59386F2B3DAF338"
+                        "Folders"
+                        {
+                        }
+                    }
+                    "{9EF0B969-E518-4E46-987F-47570745A589}:_B8131DED64ED466F808BDA7A35B34221"
+                    {
+                    "Name" = "8:FemixExe"
+                    "AlwaysCreate" = "11:FALSE"
+                    "Condition" = "8:"
+                    "Transitive" = "11:FALSE"
+                    "Property" = "8:_49C82D9748F745A884ABA8855709E385"
+                        "Folders"
+                        {
+                        }
+                    }
+                    "{9EF0B969-E518-4E46-987F-47570745A589}:_DE3E80B308434202893101326F14F173"
+                    {
+                    "Name" = "8:GMSH"
+                    "AlwaysCreate" = "11:FALSE"
+                    "Condition" = "8:"
+                    "Transitive" = "11:FALSE"
+                    "Property" = "8:_DF1B0A3FF3414ABE806A16040488D71C"
+                        "Folders"
+                        {
+                        }
+                    }
+                }
+            }
+        }
+        "LaunchCondition"
+        {
+        }
+        "Locator"
+        {
+        }
+        "MsiBootstrapper"
+        {
+        "LangId" = "3:1033"
+        "RequiresElevation" = "11:FALSE"
+        }
+        "Product"
+        {
+        "Name" = "8:Microsoft Visual Studio"
+        "ProductName" = "8:Femix PrePost"
+        "ProductCode" = "8:{C02D3551-7FBE-4D03-A624-761F2F576607}"
+        "PackageCode" = "8:{61C67095-9B2C-4F77-BCB4-55E38ADC4755}"
+        "UpgradeCode" = "8:{C57F6D4B-116F-419D-A6BC-35131B54079D}"
+        "AspNetVersion" = "8:2.0.50727.0"
+        "RestartWWWService" = "11:FALSE"
+        "RemovePreviousVersions" = "11:FALSE"
+        "DetectNewerInstalledVersion" = "11:TRUE"
+        "InstallAllUsers" = "11:FALSE"
+        "ProductVersion" = "8:1.0.0"
+        "Manufacturer" = "8:Default Company Name"
+        "ARPHELPTELEPHONE" = "8:"
+        "ARPHELPLINK" = "8:"
+        "Title" = "8:FEMIX PrePost Setup v1.0"
+        "Subject" = "8:"
+        "ARPCONTACT" = "8:Kamyar Bagherinejad Shahrbijari"
+        "Keywords" = "8:FEMIX PrePost"
+        "ARPCOMMENTS" = "8:kamyar.ba@gmail.com"
+        "ARPURLINFOABOUT" = "8:"
+        "ARPPRODUCTICON" = "8:"
+        "ARPIconIndex" = "3:0"
+        "SearchPath" = "8:"
+        "UseSystemSearchPath" = "11:TRUE"
+        "TargetPlatform" = "3:1"
+        "PreBuildEvent" = "8:"
+        "PostBuildEvent" = "8:"
+        "RunPostBuildEvent" = "3:0"
+        }
+        "Registry"
+        {
+            "HKLM"
+            {
+                "Keys"
+                {
+                    "{60EA8692-D2D5-43EB-80DC-7906BF13D6EF}:_813F58C9913B413F888E14AAD6507578"
+                    {
+                    "Name" = "8:Software"
+                    "Condition" = "8:"
+                    "AlwaysCreate" = "11:FALSE"
+                    "DeleteAtUninstall" = "11:FALSE"
+                    "Transitive" = "11:FALSE"
+                        "Keys"
+                        {
+                            "{60EA8692-D2D5-43EB-80DC-7906BF13D6EF}:_71C6E079396B4CEF875DBEE32CE4A230"
+                            {
+                            "Name" = "8:[Manufacturer]"
+                            "Condition" = "8:"
+                            "AlwaysCreate" = "11:FALSE"
+                            "DeleteAtUninstall" = "11:FALSE"
+                            "Transitive" = "11:FALSE"
+                                "Keys"
+                                {
+                                }
+                                "Values"
+                                {
+                                }
+                            }
+                        }
+                        "Values"
+                        {
+                        }
+                    }
+                }
+            }
+            "HKCU"
+            {
+                "Keys"
+                {
+                    "{60EA8692-D2D5-43EB-80DC-7906BF13D6EF}:_F12BFB3D563D4CBFA851ADE4EE3849E8"
+                    {
+                    "Name" = "8:Software"
+                    "Condition" = "8:"
+                    "AlwaysCreate" = "11:FALSE"
+                    "DeleteAtUninstall" = "11:FALSE"
+                    "Transitive" = "11:FALSE"
+                        "Keys"
+                        {
+                            "{60EA8692-D2D5-43EB-80DC-7906BF13D6EF}:_6169A926610646448F161F96A6652B7E"
+                            {
+                            "Name" = "8:[Manufacturer]"
+                            "Condition" = "8:"
+                            "AlwaysCreate" = "11:FALSE"
+                            "DeleteAtUninstall" = "11:FALSE"
+                            "Transitive" = "11:FALSE"
+                                "Keys"
+                                {
+                                }
+                                "Values"
+                                {
+                                }
+                            }
+                        }
+                        "Values"
+                        {
+                        }
+                    }
+                }
+            }
+            "HKCR"
+            {
+                "Keys"
+                {
+                }
+            }
+            "HKU"
+            {
+                "Keys"
+                {
+                }
+            }
+            "HKPU"
+            {
+                "Keys"
+                {
+                }
+            }
+        }
+        "Sequences"
+        {
+        }
+        "Shortcut"
+        {
+            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_8B0F7C57FC734A83AF6C4CEF3D5F2A4C"
+            {
+            "Name" = "8:Femix PrePost.exe"
+            "Arguments" = "8:"
+            "Description" = "8:"
+            "ShowCmd" = "3:1"
+            "IconIndex" = "3:32512"
+            "Transitive" = "11:FALSE"
+            "Target" = "8:_DCAB9834AEDE47029D6F67347ABE299E"
+            "Folder" = "8:_8C1E1734F6534F9FB02FACF3C105F1F8"
+            "WorkingFolder" = "8:_B6CFB3A8586B483999A7CC382F0B9E4C"
+            "Icon" = "8:_DCAB9834AEDE47029D6F67347ABE299E"
+            "Feature" = "8:"
+            }
+        }
+        "UserInterface"
+        {
+            "{2479F3F5-0309-486D-8047-8187E2CE5BA0}:_0730916939434F0B84124A6B09274C63"
+            {
+            "UseDynamicProperties" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "SourcePath" = "8:<VsdDialogDir>\\VsdUserInterface.wim"
+            }
+            "{DF760B10-853B-4699-99F2-AFF7185B4A62}:_1E5893B999934BDF91A0036F11F108A2"
+            {
+            "Name" = "8:#1901"
+            "Sequence" = "3:2"
+            "Attributes" = "3:2"
+                "Dialogs"
+                {
+                    "{688940B3-5CA9-4162-8DEE-2993FA9D8CBC}:_310F48E0799E4825BB8318BA0D1C6AA5"
+                    {
+                    "Sequence" = "3:100"
+                    "DisplayName" = "8:Progress"
+                    "UseDynamicProperties" = "11:TRUE"
+                    "IsDependency" = "11:FALSE"
+                    "SourcePath" = "8:<VsdDialogDir>\\VsdAdminProgressDlg.wid"
+                        "Properties"
+                        {
+                            "BannerBitmap"
+                            {
+                            "Name" = "8:BannerBitmap"
+                            "DisplayName" = "8:#1001"
+                            "Description" = "8:#1101"
+                            "Type" = "3:8"
+                            "ContextData" = "8:Bitmap"
+                            "Attributes" = "3:4"
+                            "Setting" = "3:1"
+                            "UsePlugInResources" = "11:TRUE"
+                            }
+                            "ShowProgress"
+                            {
+                            "Name" = "8:ShowProgress"
+                            "DisplayName" = "8:#1009"
+                            "Description" = "8:#1109"
+                            "Type" = "3:5"
+                            "ContextData" = "8:1;True=1;False=0"
+                            "Attributes" = "3:0"
+                            "Setting" = "3:0"
+                            "Value" = "3:1"
+                            "DefaultValue" = "3:1"
+                            "UsePlugInResources" = "11:TRUE"
+                            }
+                        }
+                    }
+                }
+            }
+            "{DF760B10-853B-4699-99F2-AFF7185B4A62}:_361BD15C799F4F1AAFC5286DC55C64CF"
+            {
+            "Name" = "8:#1902"
+            "Sequence" = "3:2"
+            "Attributes" = "3:3"
+                "Dialogs"
+                {
+                    "{688940B3-5CA9-4162-8DEE-2993FA9D8CBC}:_558D7C5B57084EC9AC8CAFBB363A2493"
+                    {
+                    "Sequence" = "3:100"
+                    "DisplayName" = "8:Finished"
+                    "UseDynamicProperties" = "11:TRUE"
+                    "IsDependency" = "11:FALSE"
+                    "SourcePath" = "8:<VsdDialogDir>\\VsdAdminFinishedDlg.wid"
+                        "Properties"
+                        {
+                            "BannerBitmap"
+                            {
+                            "Name" = "8:BannerBitmap"
+                            "DisplayName" = "8:#1001"
+                            "Description" = "8:#1101"
+                            "Type" = "3:8"
+                            "ContextData" = "8:Bitmap"
+                            "Attributes" = "3:4"
+                            "Setting" = "3:1"
+                            "UsePlugInResources" = "11:TRUE"
+                            }
+                        }
+                    }
+                }
+            }
+            "{DF760B10-853B-4699-99F2-AFF7185B4A62}:_966715161E8F458783C66D4808385B1F"
+            {
+            "Name" = "8:#1901"
+            "Sequence" = "3:1"
+            "Attributes" = "3:2"
+                "Dialogs"
+                {
+                    "{688940B3-5CA9-4162-8DEE-2993FA9D8CBC}:_CEE14ACE9C4745CBAB225AA40FA9629E"
+                    {
+                    "Sequence" = "3:100"
+                    "DisplayName" = "8:Progress"
+                    "UseDynamicProperties" = "11:TRUE"
+                    "IsDependency" = "11:FALSE"
+                    "SourcePath" = "8:<VsdDialogDir>\\VsdProgressDlg.wid"
+                        "Properties"
+                        {
+                            "BannerBitmap"
+                            {
+                            "Name" = "8:BannerBitmap"
+                            "DisplayName" = "8:#1001"
+                            "Description" = "8:#1101"
+                            "Type" = "3:8"
+                            "ContextData" = "8:Bitmap"
+                            "Attributes" = "3:4"
+                            "Setting" = "3:1"
+                            "UsePlugInResources" = "11:TRUE"
+                            }
+                            "ShowProgress"
+                            {
+                            "Name" = "8:ShowProgress"
+                            "DisplayName" = "8:#1009"
+                            "Description" = "8:#1109"
+                            "Type" = "3:5"
+                            "ContextData" = "8:1;True=1;False=0"
+                            "Attributes" = "3:0"
+                            "Setting" = "3:0"
+                            "Value" = "3:1"
+                            "DefaultValue" = "3:1"
+                            "UsePlugInResources" = "11:TRUE"
+                            }
+                        }
+                    }
+                }
+            }
+            "{DF760B10-853B-4699-99F2-AFF7185B4A62}:_B29A96952BF145469D93F06A1C15FF79"
+            {
+            "Name" = "8:#1900"
+            "Sequence" = "3:2"
+            "Attributes" = "3:1"
+                "Dialogs"
+                {
+                    "{688940B3-5CA9-4162-8DEE-2993FA9D8CBC}:_2AE9A3830EA94A93AD9AE47EF6223035"
+                    {
+                    "Sequence" = "3:200"
+                    "DisplayName" = "8:Installation Folder"
+                    "UseDynamicProperties" = "11:TRUE"
+                    "IsDependency" = "11:FALSE"
+                    "SourcePath" = "8:<VsdDialogDir>\\VsdAdminFolderDlg.wid"
+                        "Properties"
+                        {
+                            "BannerBitmap"
+                            {
+                            "Name" = "8:BannerBitmap"
+                            "DisplayName" = "8:#1001"
+                            "Description" = "8:#1101"
+                            "Type" = "3:8"
+                            "ContextData" = "8:Bitmap"
+                            "Attributes" = "3:4"
+                            "Setting" = "3:1"
+                            "UsePlugInResources" = "11:TRUE"
+                            }
+                        }
+                    }
+                    "{688940B3-5CA9-4162-8DEE-2993FA9D8CBC}:_F8E9FB1EFAB5464BAF641315654A7447"
+                    {
+                    "Sequence" = "3:100"
+                    "DisplayName" = "8:Welcome"
+                    "UseDynamicProperties" = "11:TRUE"
+                    "IsDependency" = "11:FALSE"
+                    "SourcePath" = "8:<VsdDialogDir>\\VsdAdminWelcomeDlg.wid"
+                        "Properties"
+                        {
+                            "BannerBitmap"
+                            {
+                            "Name" = "8:BannerBitmap"
+                            "DisplayName" = "8:#1001"
+                            "Description" = "8:#1101"
+                            "Type" = "3:8"
+                            "ContextData" = "8:Bitmap"
+                            "Attributes" = "3:4"
+                            "Setting" = "3:1"
+                            "UsePlugInResources" = "11:TRUE"
+                            }
+                            "CopyrightWarning"
+                            {
+                            "Name" = "8:CopyrightWarning"
+                            "DisplayName" = "8:#1002"
+                            "Description" = "8:#1102"
+                            "Type" = "3:3"
+                            "ContextData" = "8:"
+                            "Attributes" = "3:0"
+                            "Setting" = "3:1"
+                            "Value" = "8:#1202"
+                            "DefaultValue" = "8:#1202"
+                            "UsePlugInResources" = "11:TRUE"
+                            }
+                            "Welcome"
+                            {
+                            "Name" = "8:Welcome"
+                            "DisplayName" = "8:#1003"
+                            "Description" = "8:#1103"
+                            "Type" = "3:3"
+                            "ContextData" = "8:"
+                            "Attributes" = "3:0"
+                            "Setting" = "3:1"
+                            "Value" = "8:#1203"
+                            "DefaultValue" = "8:#1203"
+                            "UsePlugInResources" = "11:TRUE"
+                            }
+                        }
+                    }
+                    "{688940B3-5CA9-4162-8DEE-2993FA9D8CBC}:_FBC8F83741B841D68DF8B4B0B4F30E0B"
+                    {
+                    "Sequence" = "3:300"
+                    "DisplayName" = "8:Confirm Installation"
+                    "UseDynamicProperties" = "11:TRUE"
+                    "IsDependency" = "11:FALSE"
+                    "SourcePath" = "8:<VsdDialogDir>\\VsdAdminConfirmDlg.wid"
+                        "Properties"
+                        {
+                            "BannerBitmap"
+                            {
+                            "Name" = "8:BannerBitmap"
+                            "DisplayName" = "8:#1001"
+                            "Description" = "8:#1101"
+                            "Type" = "3:8"
+                            "ContextData" = "8:Bitmap"
+                            "Attributes" = "3:4"
+                            "Setting" = "3:1"
+                            "UsePlugInResources" = "11:TRUE"
+                            }
+                        }
+                    }
+                }
+            }
+            "{DF760B10-853B-4699-99F2-AFF7185B4A62}:_DEAAF0062E794050AC3090DA89F9A432"
+            {
+            "Name" = "8:#1900"
+            "Sequence" = "3:1"
+            "Attributes" = "3:1"
+                "Dialogs"
+                {
+                    "{688940B3-5CA9-4162-8DEE-2993FA9D8CBC}:_1F68578809A84D65BE367874624C5072"
+                    {
+                    "Sequence" = "3:100"
+                    "DisplayName" = "8:Welcome"
+                    "UseDynamicProperties" = "11:TRUE"
+                    "IsDependency" = "11:FALSE"
+                    "SourcePath" = "8:<VsdDialogDir>\\VsdWelcomeDlg.wid"
+                        "Properties"
+                        {
+                            "BannerBitmap"
+                            {
+                            "Name" = "8:BannerBitmap"
+                            "DisplayName" = "8:#1001"
+                            "Description" = "8:#1101"
+                            "Type" = "3:8"
+                            "ContextData" = "8:Bitmap"
+                            "Attributes" = "3:4"
+                            "Setting" = "3:1"
+                            "UsePlugInResources" = "11:TRUE"
+                            }
+                            "CopyrightWarning"
+                            {
+                            "Name" = "8:CopyrightWarning"
+                            "DisplayName" = "8:#1002"
+                            "Description" = "8:#1102"
+                            "Type" = "3:3"
+                            "ContextData" = "8:"
+                            "Attributes" = "3:0"
+                            "Setting" = "3:1"
+                            "Value" = "8:#1202"
+                            "DefaultValue" = "8:#1202"
+                            "UsePlugInResources" = "11:TRUE"
+                            }
+                            "Welcome"
+                            {
+                            "Name" = "8:Welcome"
+                            "DisplayName" = "8:#1003"
+                            "Description" = "8:#1103"
+                            "Type" = "3:3"
+                            "ContextData" = "8:"
+                            "Attributes" = "3:0"
+                            "Setting" = "3:1"
+                            "Value" = "8:#1203"
+                            "DefaultValue" = "8:#1203"
+                            "UsePlugInResources" = "11:TRUE"
+                            }
+                        }
+                    }
+                    "{688940B3-5CA9-4162-8DEE-2993FA9D8CBC}:_593EE4E7EE364CAAADF5E4A8E675911F"
+                    {
+                    "Sequence" = "3:200"
+                    "DisplayName" = "8:Installation Folder"
+                    "UseDynamicProperties" = "11:TRUE"
+                    "IsDependency" = "11:FALSE"
+                    "SourcePath" = "8:<VsdDialogDir>\\VsdFolderDlg.wid"
+                        "Properties"
+                        {
+                            "BannerBitmap"
+                            {
+                            "Name" = "8:BannerBitmap"
+                            "DisplayName" = "8:#1001"
+                            "Description" = "8:#1101"
+                            "Type" = "3:8"
+                            "ContextData" = "8:Bitmap"
+                            "Attributes" = "3:4"
+                            "Setting" = "3:1"
+                            "UsePlugInResources" = "11:TRUE"
+                            }
+                            "InstallAllUsersVisible"
+                            {
+                            "Name" = "8:InstallAllUsersVisible"
+                            "DisplayName" = "8:#1059"
+                            "Description" = "8:#1159"
+                            "Type" = "3:5"
+                            "ContextData" = "8:1;True=1;False=0"
+                            "Attributes" = "3:0"
+                            "Setting" = "3:0"
+                            "Value" = "3:1"
+                            "DefaultValue" = "3:1"
+                            "UsePlugInResources" = "11:TRUE"
+                            }
+                        }
+                    }
+                    "{688940B3-5CA9-4162-8DEE-2993FA9D8CBC}:_8C9D8B004A7F45CCA2C647976A830ED0"
+                    {
+                    "Sequence" = "3:300"
+                    "DisplayName" = "8:Confirm Installation"
+                    "UseDynamicProperties" = "11:TRUE"
+                    "IsDependency" = "11:FALSE"
+                    "SourcePath" = "8:<VsdDialogDir>\\VsdConfirmDlg.wid"
+                        "Properties"
+                        {
+                            "BannerBitmap"
+                            {
+                            "Name" = "8:BannerBitmap"
+                            "DisplayName" = "8:#1001"
+                            "Description" = "8:#1101"
+                            "Type" = "3:8"
+                            "ContextData" = "8:Bitmap"
+                            "Attributes" = "3:4"
+                            "Setting" = "3:1"
+                            "UsePlugInResources" = "11:TRUE"
+                            }
+                        }
+                    }
+                }
+            }
+            "{2479F3F5-0309-486D-8047-8187E2CE5BA0}:_E0B0EFD2EA904C94ABEC09AD8A1B4CE8"
+            {
+            "UseDynamicProperties" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "SourcePath" = "8:<VsdDialogDir>\\VsdBasicDialogs.wim"
+            }
+            "{DF760B10-853B-4699-99F2-AFF7185B4A62}:_EAF074BC86694B41A27EE28EC87DE83A"
+            {
+            "Name" = "8:#1902"
+            "Sequence" = "3:1"
+            "Attributes" = "3:3"
+                "Dialogs"
+                {
+                    "{688940B3-5CA9-4162-8DEE-2993FA9D8CBC}:_0C9531EAD3E643BFB064D0591B3C2E07"
+                    {
+                    "Sequence" = "3:100"
+                    "DisplayName" = "8:Finished"
+                    "UseDynamicProperties" = "11:TRUE"
+                    "IsDependency" = "11:FALSE"
+                    "SourcePath" = "8:<VsdDialogDir>\\VsdFinishedDlg.wid"
+                        "Properties"
+                        {
+                            "BannerBitmap"
+                            {
+                            "Name" = "8:BannerBitmap"
+                            "DisplayName" = "8:#1001"
+                            "Description" = "8:#1101"
+                            "Type" = "3:8"
+                            "ContextData" = "8:Bitmap"
+                            "Attributes" = "3:4"
+                            "Setting" = "3:1"
+                            "UsePlugInResources" = "11:TRUE"
+                            }
+                            "UpdateText"
+                            {
+                            "Name" = "8:UpdateText"
+                            "DisplayName" = "8:#1058"
+                            "Description" = "8:#1158"
+                            "Type" = "3:15"
+                            "ContextData" = "8:"
+                            "Attributes" = "3:0"
+                            "Setting" = "3:1"
+                            "Value" = "8:#1258"
+                            "DefaultValue" = "8:#1258"
+                            "UsePlugInResources" = "11:TRUE"
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        "MergeModule"
+        {
+        }
+        "ProjectOutput"
+        {
+        }
+    }
+}

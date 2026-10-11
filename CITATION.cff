@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use FEMIX Pre-Post in your research, please cite the specific released version of the software."
+title: "FEMIX Pre-Post"
+type: software
+authors:
+  - family-names: "Bagherinejad Shahrbijari"
+    given-names: "Kamyar"
+abstract: >-
+  A C# Windows desktop pre- and post-processing environment for finite element
+  analysis workflows using FEMIX, Gmsh and VTK.
+keywords:
+  - finite element analysis
+  - structural engineering
+  - FEMIX
+  - Gmsh
+  - VTK
+repository-code: "https://github.com/kamyarba/femix-prepost"

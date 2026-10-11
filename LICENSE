@@ -1,0 +1,18 @@
+FEMIX Pre-Post - License
+
+Copyright (c) Kamyar Bagherinejad Shahrbijari
+
+Unless a file or component is identified as third-party material or otherwise marked, the original FEMIX Pre-Post source code and project-authored documentation in this repository are licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International Public License (CC BY-NC-SA 4.0).
+
+The full legal code is available at:
+https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode
+
+License deed / human-readable summary:
+https://creativecommons.org/licenses/by-nc-sa/4.0/
+
+In summary, the license requires attribution, permits sharing and adaptation for non-commercial purposes only, and requires adaptations to be shared under the same or a compatible license. This summary does not replace the legal code linked above.
+
+This license does not grant rights in third-party software, the FEMIX solver, third-party DLLs, runtime libraries, sample data, trademarks, logos, or other materials that are not owned by the project author. See THIRD-PARTY-NOTICES.md and the relevant upstream terms before using or redistributing those materials.
+
+Creative Commons recommends against using its licenses for software because they are not software-specific licenses and can complicate integration with other software components. The license is used here to reflect the author's stated licensing choice; this repository should not be represented as OSI-approved open-source software while CC BY-NC-SA 4.0 applies. See:
+https://creativecommons.org/faq/#can-i-apply-a-creative-commons-license-to-software

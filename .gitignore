@@ -1,0 +1,62 @@
+# Visual Studio and user-specific settings
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.rsuser
+
+# Build outputs
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+[Rr]elease/
+[Dd]ebugPublic/
+[Rr]eleases/
+x64/
+x86/
+[Aa]rm/
+[Aa]rm64/
+bld/
+artifacts/
+[Ll]og/
+[Ll]ogs/
+*.log
+*.pdb
+*.ilk
+*.cache
+
+# Test output
+TestResults/
+[Tt]est[Rr]esult*/
+*.trx
+
+# NuGet generated/downloaded packages
+*.nupkg
+packages/
+
+# IDE and editor settings
+.idea/
+.vscode/
+_ReSharper*/
+*.[Rr]e[Ss]harper.*
+
+# OS files
+Thumbs.db
+.DS_Store
+
+# Local deployment binaries and dependencies have not been cleared for redistribution.
+# The current classic project references selected assemblies under Exe/, so a clone
+# will require approved dependency files there or updated reproducible references.
+/Exe/**
+!/Exe/.gitkeep
+
+# Locally generated installer; distribute as a reviewed GitHub Release asset instead.
+/Femix_PrePost-Setup.msi
+
+# Local presentation PDF is not part of the source archive by default.
+/Femix Pre-Post.pdf
+
+# Sample inputs are excluded until their provenance and redistribution rights are confirmed.
+/FemixSample/**
+!/FemixSample/.gitkeep
