@@ -4,8 +4,6 @@
 
 FEMIX Pre-Post was developed as a graphical environment to support the preparation of finite element models, mesh-generation workflows, FEMIX input data, analysis execution and visualization of numerical results. The application was developed in the context of research in structural engineering, including finite element modelling of concrete and fibre-reinforced concrete structural systems.
 
-> **License note:** The original project source and project-authored documentation in this repository are made available under **Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)**, as specified in [`LICENSE`](LICENSE). This license restricts commercial use. Creative Commons advises against using its licenses for software; consequently, this project should be described as *publicly available/source-available under CC BY-NC-SA 4.0*, not as OSI-approved open-source software. See the [Creative Commons FAQ on software](https://creativecommons.org/faq/#can-i-apply-a-creative-commons-license-to-software).
-
 ## Capabilities
 
 The associated project documentation describes the following workflow and capabilities. The exact functionality available in each GUI module should be verified against the source code and tested with the required dependencies.
