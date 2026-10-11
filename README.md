@@ -69,6 +69,23 @@ This is a legacy .NET Framework solution. Do not assume that `dotnet run` is the
 
 The solution also contains `Setup/Setup.vdproj`. Building this installer project may require Microsoft's Visual Studio Installer Projects extension. The separate `FemixFRM/FemixFRM.csproj` exists in the local directory but is not listed in the supplied `Femix.sln`; its intended status should be clarified before documenting it as part of the standard build.
 
+## 📥 Download and Installation
+
+Download the latest Windows installer for FEMIX Pre/Post-Processor.
+
+[![Download FEMIX Pre/Post-Processor](https://img.shields.io/badge/Download-Windows%20Installer-blue?logo=windows)](https://github.com/kamyarba/femix-prepost/releases/download/Femix-prepost/Femix_PrePost-Setup.msi)
+
+**[⬇️ Download FEMIX Pre/Post-Processor (.msi)](https://github.com/kamyarba/femix-prepost/releases/download/Femix-prepost/Femix_PrePost-Setup.msi)**
+
+### Installation Instructions
+
+1. Download `Femix_PrePost-Setup.msi` using the link above.
+2. Double-click the downloaded `.msi` file.
+3. Follow the installation wizard to complete the installation.
+4. Launch FEMIX Pre/Post-Processor from the installed application or Start menu.
+
+**Platform:** Windows
+
 ## Examples
 The local project directory contains `.dat` files under `FemixSample/`. They are not included in this starter package because their provenance and redistribution permissions have not yet been confirmed. Add them only after checking that you can redistribute them and recording any required source attribution or benchmark citations.
 
