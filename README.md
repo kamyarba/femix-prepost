@@ -73,9 +73,9 @@ The solution also contains `Setup/Setup.vdproj`. Building this installer project
 
 Download the latest Windows installer for FEMIX Pre/Post-Processor.
 
-[![Download FEMIX Pre/Post-Processor](https://img.shields.io/badge/Download-Windows%20Installer-blue?logo=windows)](https://github.com/kamyarba/femix-prepost/releases/download/Femix-prepost/Femix_PrePost-Setup.msi)
+[![Download FEMIX Pre/Post-Processor](https://img.shields.io/badge/Download-Windows%20Installer-blue?logo=windows)](https://github.com/kamyarba/femix-prepost/releases/download/Femix-prepost-zenodo/Femix_PrePost-Setup.msi)
 
-**[⬇️ Download FEMIX Pre/Post-Processor (.msi)](https://github.com/kamyarba/femix-prepost/releases/download/Femix-prepost/Femix_PrePost-Setup.msi)**
+**[⬇️ Download FEMIX Pre/Post-Processor (.msi)](https://github.com/kamyarba/femix-prepost/releases/download/Femix-prepost-zenodo/Femix_PrePost-Setup.msi)**
 
 ### Installation Instructions
 
