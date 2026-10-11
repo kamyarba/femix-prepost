@@ -15,3 +15,7 @@ keywords:
   - Gmsh
   - VTK
 repository-code: "https://github.com/kamyarba/femix-prepost"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.23297715"
+    description: "Zenodo DOI for FEMIX Pre-Post"
