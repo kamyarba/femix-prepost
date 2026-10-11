@@ -1,0 +1,2491 @@
+<FEMIX_DATA_FILE_V4.0>
+
+<MAIN_PARAMETERS>
+  MAIN_TITLE = Mesh ;
+
+  ANALYSIS_TYPE = _STATIC ;
+  MATERIALLY_NONLINEAR_PROBLEM = _Y ;
+  GEOMETRICALLY_NONLINEAR_PROBLEM = _N ;
+
+  NUMBER_OF_PHASES = 1 ;
+  NUMBER_OF_LOAD_CASES = 2 ;
+  NUMBER_OF_COMBINATIONS = 80 ;
+
+  STIFFNESS_MATRIX_STORAGE_TECHNIQUE = _SYMMETRIC_SPARSE ;
+  SYSTEM_LIN_EQ_ALGORITHM = _ITERATIVE_JPCG ;
+  PRECONDITIONED_RESIDUAL_DECAY =  1.0000e-006 ;
+  #   MAXIMUM_NUMBER_OF_ARC_LENGTH_COMBINATIONS = 1000 ;
+
+    ITERATIVE_ALGORITHM = _NEWTON_RAPHSON_MOD_1 ;
+#  ITERATIVE_ALGORITHM = _NEWTON_RAPHSON_STD ;
+   CONVERGENCE_CRITERION = _FORCE_NORM ;
+  TOLERANCE_IN_EACH_COMBINATION =  1.0000e-003 ;
+  MAXIMUM_NUMBER_OF_ITERATIONS_IN_EACH_COMBINATION = 1000 ;
+  NUMBER_OF_COMBINATIONS_BEFORE_RESTART = 0 ;
+
+  ARC_LENGTH = _N ;
+
+  LINE_SEARCH = _N ;
+
+  PATH_BEHAVIOR = _INDEPENDENT ;
+</MAIN_PARAMETERS>
+
+<MESH>
+
+<GROUP_NAMES>
+## Declaration of the names of the groups
+   COUNT = 1 ; # N. of groups
+
+## Content of each column:
+#  A -> Counter
+#  B -> Name
+#      A  B
+       1  MY_GROUP ;
+</GROUP_NAMES>
+
+<POINT_COORDINATES>
+  ## Point coordinates (global coordinate system)
+  COUNT = 8 ; # N. of points
+
+  ## Content of each column:
+  #  A -> Counter
+  #  B -> Coordinate - XG1
+  #  C -> Coordinate - XG2
+  #  D -> Coordinate - XG3
+  #      A                 B                 C                 D
+  1      0.00000000      0.00000000      0.00000000 ;
+  2    100.00000000      0.00000000      0.00000000 ; 
+  3      0.00000000    100.00000000      0.00000000 ;
+  4    100.00000000    100.00000000      0.00000000 ;  
+  5      0.00000000      0.00000000    100.00000000 ;
+  6    100.00000000      0.00000000    100.00000000 ;
+  7      0.00000000    100.00000000    100.00000000 ;
+  8    100.00000000    100.00000000    100.00000000 ;
+
+
+#  1      0.00000000      0.00000000      0.00000000 ;
+#  2    30.00000000      0.00000000      0.00000000 ; 
+#  3      0.00000000    100.00000000      0.00000000 ;
+#  4    30.00000000    100.00000000      0.00000000 ;  
+#  5      0.00000000      0.00000000    100.00000000 ;
+#  6    30.00000000      0.00000000    100.00000000 ;
+#  7      0.00000000    100.00000000    100.00000000 ;
+#  8    30.00000000    100.00000000    100.00000000 ;
+</POINT_COORDINATES>
+
+<SUPPORTS>
+  ## Points with fixed degrees of freedom
+  COUNT = 8 ; # N. of points with fixed degrees of freedom
+
+  ## Content of each column:
+  #  A -> Counter (or counter range)
+  #  B -> Group name
+  #  C -> Phase (or phase range)
+  #  D -> Point number (or point number range)
+  #  E -> N. of fixed degrees of freedom in the current point(s)
+  #  F -> Fixed degrees of freedom:
+  #       - Available keywords: _D1, _D2, _D3, _R1, _R2 or _R3
+  #      A  B                                        C         D  E  F
+  1  MY_GROUP                                 1         1  2  _D3 _D2 ;
+  2  MY_GROUP                                 1         2  2  _D3 _D2  ;
+  3  MY_GROUP                                 1         3  2  _D3 _D2  ;
+  4  MY_GROUP                                 1         4  2  _D3 _D2  ;
+
+  5  MY_GROUP                                 1         5  2  _D3 _D2  ;
+  6  MY_GROUP                                 1         6  2  _D3 _D2  ;
+  7  MY_GROUP                                 1         7  2  _D3 _D2  ;
+  8  MY_GROUP                                 1         8  2  _D3 _D2  ;
+
+</SUPPORTS>
+
+<LINEAR_ISOTROPIC_MATERIALS>
+## Keyword: _LIN_ISO
+## Properties of the linear isotropic materials
+   COUNT = 2 ; # N. of linear isotropic materials
+
+## Content of each column:
+#  A -> Counter
+#  B -> Material name
+#  C -> Mass per unit volume
+#  D -> Temperature coefficient
+#  E -> Young's modulus
+#  F -> Poisson's coefficient
+#        A  B                                         C                 D                 E                 F
+         1  MY_LIN_ISO(SOLO)            1.80000000e+001   1.00000000e-005   2.00000000e+004        0.30000000 ;
+         2  MY_LIN_ISO(BETAO)           2.50000000e+001   1.00000000e-005   3.00000000e+007        0.00000000 ;
+</LINEAR_ISOTROPIC_MATERIALS>
+
+#<NLMM142>
+    ## Keyword: _NLMM142
+    ## Properties of the NLMM125 material model
+#    COUNT = 1 ; # N. of NLMM125 materials
+
+    ## Content of each column:
+    #  A -> Counter
+    #  B -> Name of the material model
+    #  C -> Mass per unit volume
+    #  D -> Temperature coefficient
+    #  E -> Poisson's coefficient
+    #  F -> Young's modulus
+    #  G -> Compressive strength
+    #  H -> Strain at compression peak stress
+    #  I -> Parameter defining the initial yield surface
+    #  J -> Type of hardeding function after peak load
+    #       - Available keywords: _CEB_FIP93 or _PERFECT_PLASTIC
+    #  K -> Volume fraction of fibers (Vf)
+    #
+    #       Note: for plane concrete a Value of zero should be set for this parameter
+    #
+    #  L -> Aspect ratio of fibers (lf/Df)
+    #  M -> Length efficiency factor of fibers
+    #  N -> Orientation factor of fibers
+    #  O -> Ultimate bond strength
+    #  P -> Tensile strength
+    #  Q -> Type of tensile-softening diagram
+    #       - Available keywords: _TRILINEAR, _QUADRILINEAR or _CORNELISSEN
+    #  R -> Ratio between the strain at the first post-peak point and the
+    #       ultimate strain of the trilinear/quadrilinear tensile-softening diagram (fracture mode I)
+    #  S -> Ratio between the stress at the first post-peak point and the
+    #       tensile strength of the trilinear/quadrilinear tensile-softening diagram (fracture mode I)
+    #  T -> Ratio between the strain at the second post-peak point and the
+    #       ultimate strain of the trilinear/quadrilinear tensile-softening diagram (fracture mode I)
+    #  U -> Ratio between the stress at the second post-peak point and the
+    #       tensile strength of the trilinear/quadrilinear tensile-softening diagram (fracture mode I)
+    #  V -> Ratio between the strain at the third post-peak point and the
+    #       ultimate strain of the quadrilinear tensile-softening diagram (fracture mode I)
+    #  W -> Ratio between the stress at the third post-peak point and the
+    #       tensile strength of the quadrilinear tensile-softening diagram (fracture mode I)
+    #  X -> Mode I fracture energy (Gf)
+    #  Y -> Type of mode I fracture energy update law
+    #       - Available keywords: _NONE, _LINEAR, _QUADRATIC or _CUBIC
+    #  Z -> Ultimate crack shear sliding (keyword or constant value)
+    #       - Available keywords: _MAXIMUM_CRACKWIDTH
+    #  AA -> Parameter to define the mode I fracture energy available to the new crack
+    #  AB -> Type of shear-softening diagram
+    #       - Available keywords: _NONE or _LINEAR
+    #  AC -> Type of shear retention factor law (keyword or constant value)
+    #       - Available keywords: _LINEAR, _QUADRATIC or _CUBIC
+    #  AD -> Type of crack shear modelling appoach (used in shear retention model)
+    #       - Available keywords: _INCREMENTAL or _TOTAL
+    #  AE -> Crack shear strength
+    #  AF -> Shear fracture energy (Gfs=GfII) (in nonlinear Mindlin shell: In-plane shear fracture energy)
+    #  AG -> Type of unloading/reloading diagram
+    #       - Available keywords: _SECANT or _ELASTIC
+    #  AH -> Crack band width for the fracture mode I (keyword or constant value)
+    #       - Available keywords: _SQRT_ELEMENT or _SQRT_IP
+    #  AI -> Maximum n. of cracks
+    #  AJ -> Threshold angle (degress)
+    #
+    #  Out-of-plane shear data:
+    #    -> Used in nonlinear Mindlin shell
+    #
+    # AK -> Type of out-of-plane shear-softening diagram
+    #       - Available keywords: _NONE, _LINEAR, _TRILINEAR or _CORNELISSEN
+    # AL -> Minimum out-of-plane shear stress for softening behavior
+    # AM -> Out-of-plane shear fracture energy
+    # AN -> Ratio between the out-of-plane shear strain at the first
+    #       post-peak point and the ultimate out-of-plane shear strain
+    #       trilinear out-of-plane shear-softening diagram
+    # AO -> Ratio between the out-of-plane shear stress at the first
+    #       post-peak point and the out-of-plane shear strength of the
+    #       trilinear out-of-plane shear-softening diagram
+    # AP -> Ratio between the out-of-plane shear strain at the second
+    #       post-peak point and the ultimate out-of-plane shear strain
+    #       of the trilinear out-of-plane shear-softening diagram
+    # AQ -> Ratio between the out-of-plane shear stress at the second
+    #       post-peak point and the out-of-plane shear strength of the
+    #       trilinear out-of-plane shear-softening diagram
+    #  A  B                C           D            E           F
+#    1  TEST01   2.50e-005    1.0e-005          0.2        2.7000e+004
+    #-----------------------------------------------------------------------------------------
+    #  G           H           I           J                     K           L
+#    30.00      0.0017         0.4           _PERFECT_PLASTIC   0.00       54.55
+    #-----------------------------------------------------------------------------------------
+    #  M            N           O           P           Q                       R           S
+#    0.5          0.25        6.50         2.45           _TRILINEAR       0.2         0.70
+    #-----------------------------------------------------------------------------------------
+    # T            U          V          W           X           Y
+#    0.75         0.2        0.0        0.0         0.12           _NONE
+    #-----------------------------------------------------------------------------------------
+    # Z                            AA           AB           AC           AD
+#    _MAXIMUM_CRACKWIDTH             2           _NONE      _QUADRATIC         _INCREMENTAL
+    #-----------------------------------------------------------------------------------------
+    # AE            AF           AG           AH              AI            AJ       AK
+#    1.6           0.3           _SECANT      _SQRT_IP         2          30.0       _NONE
+    #-----------------------------------------------------------------------------------------
+    #   AL            AM           AN           AO              AP            AQ
+#    0.0           3.0           0.13        0.5            0.22          0.15 ;
+    #Gfc=15
+#  </NLMM142>
+
+  <NLMM111>
+    ## Keyword: _NLMM111
+    ## Properties of the NLMM111 material model
+    COUNT = 1 ; # N. of NLMM111 materials
+
+    ## MY_GROUPtent of each column:
+    #  A -> Counter
+    #  B -> Name of the material model
+    #  C -> Mass per unit volume
+    #  D -> Temperature coefficient
+    #  E -> Poisson's coefficient
+    #  F -> Young's modulus
+    #  G -> Compressive strength
+    #  H -> Tensile strength
+    #  I -> Type of tensile-softening diagram
+    #       - Available keywords: _TRILINEAR, _QUADRILINEAR or _CORNELISSEN
+    #  J -> Ratio between the strain at the first post-peak point and the
+    #       ultimate strain of the trilinear/quadrilinear tensile-softening diagram (fracture mode I)
+    #  K -> Ratio between the stress at the first post-peak point and the
+    #       tensile strength of the trilinear/quadrilinear tensile-softening diagram (fracture mode I)
+    #  L -> Ratio between the strain at the seMY_GROUPd post-peak point and the
+    #       ultimate strain of the trilinear/quadrilinear tensile-softening diagram (fracture mode I)
+    #  M -> Ratio between the stress at the seMY_GROUPd post-peak point and the
+    #       tensile strength of the trilinear/quadrilinear tensile-softening diagram (fracture mode I)
+    #  N -> Ratio between the strain at the third post-peak point and the
+    #       ultimate strain of the quadrilinear tensile-softening diagram (fracture mode I)
+    #  O -> Ratio between the stress at the third post-peak point and the
+    #       tensile strength of the quadrilinear tensile-softening diagram (fracture mode I)
+    #  P -> Mode I fracture energy (Gf)
+    #  Q -> Parameter to define the mode I fracture energy available to the new crack
+    #  R -> Type of shear-softening diagram
+    #       - Available keywords: _NONE, _LINEAR, _TRILINEAR or _CORNELISSEN
+    #  S -> Ratio between the (shear strain minus peak shear strain) at the first post-peak point and
+    #       the (ultimate shear strain minus peak shear strain) of the trilinear shear-softening diagram
+    #  T -> Ratio between the the shear stress at the first post-peak point and the
+    #       shear strength of the trilinear shear-softening diagram
+    #  U -> Ratio between the (shear strain minus peak shear strain) at the second post-peak point and
+    #       the (ultimate shear strain minus peak shear strain) of the trilinear shear-softening diagram
+    #  V -> Ratio between the the shear stress at the seMY_GROUPd post-peak point and the
+    #       shear strength of the trilinear shear-softening diagram
+    #  W -> Type of shear retention factor law (keyword or costant value)
+    #       - Available keywords: _LINEAR, _QUADRATIC or _CUBIC
+    #  X -> Type of crack shear modelling appoach (used in shear retention model)
+    #       - Available keywords: _INCREMENTAL or _TOTAL
+    #  Y -> Crack shear strength
+    #  Z -> Shear fracture energy (Gfs=GfII=GfIII)
+    # AA -> Type of unloading/reloading diagram
+    #       - Available keywords: _SECANT or _ELASTIC
+    # AB -> Crack band width for the fracture mode I (keyword or MY_GROUPstant value)
+    #       - Available keywords: _SQRT_ELEMENT or _SQRT_IP
+    # AC -> Maximum n. of cracks
+    # AD -> Threshold angle (degress)
+
+
+    # A		   B	     C			      D		        	E		          F	         G
+    1			TEST01 	2.50E-06		 1e-005		      0.15       	 27000.0   	   60.0
+    # -------------------------------------------------------------------------------------------------------------------
+
+    #    H		      I
+    2.45	    _TRILINEAR
+    # -------------------------------------------------------------------------------------------------------------------
+
+    #   J			   K		    	L 	             M             N         O             	P
+    0.2  		 0.7			0.75			    0.2  	 0.0	   	0.0  	       0.04
+    #   0.045  		 0.78			0.058			    0.90	 0.15	   	0.30  	        5.5
+    # -------------------------------------------------------------------------------------------------------------------
+
+    #     Q	   R		  S	        T	   U       V
+    #      2.0    _LINEAR          0.01           0.5         0.3     0.3
+    2	  _NONE           0.1           0.5         0.3     0.3
+
+    # -------------------------------------------------------------------------------------------------------------------
+
+    #         W		 z              Y         Z	              AA	          AB	     AC    AD
+    #         0.2      _INCREMENTAL        0.9      0.07            _SECANT      _SQRT_IP     2     30 ;
+    0.01      _TOTAL             0.9      0.07            _SECANT      _SQRT_IP     3     30 ;
+    # -------------------------------------------------------------------------------------------------------------------
+
+
+  </NLMM111>
+
+  <NLMM151>
+    ## Keyword: _NLMM151
+    ## Properties of the NLMM151 material model
+    COUNT = 1 ; # N. of NLMM151 materials
+
+    ## Content of each column:
+    #  A -> Counter
+    #  B -> Name of the material model
+    #  C -> Mass per unit volume
+    #  D -> Temperature coefficient
+    #  E -> Poisson's coefficient
+    #  F -> Young's modulus
+    #  G -> Compressive strength
+    #  H -> Strain at compression peak stress
+    #  I -> Parameter defining the initial yield surface
+    #  J -> Compressive fracture energy
+    #  K -> Type of hardeding function after peak load
+    #       - Available keywords: _CEB_FIP93 or _PERFECT_PLASTIC
+    #  L -> Volume fraction of fibers (Vf)
+    #
+    #       Note: for plane concrete a Value of zero should be set for this parameter
+    #
+    #  M -> Aspect ratio of fibers (lf/Df)
+    #  N -> Length efficiency factor of fibers
+    #  O -> Orientation factor of fibers
+    #  P -> Ultimate bond strength
+    #  Q -> Tensile strength
+    #  R -> Type of tensile-softening diagram
+    #       - Available keywords: _TRILINEAR, _QUADRILINEAR or _CORNELISSEN
+    #  S -> Ratio between the strain at the first post-peak point and the
+    #       ultimate strain of the trilinear/quadrilinear tensile-softening diagram (fracture mode I)
+    #  T -> Ratio between the stress at the first post-peak point and the
+    #       tensile strength of the trilinear/quadrilinear tensile-softening diagram (fracture mode I)
+    #  U -> Ratio between the strain at the second post-peak point and the
+    #       ultimate strain of the trilinear/quadrilinear tensile-softening diagram (fracture mode I)
+    #  V -> Ratio between the stress at the second post-peak point and the
+    #       tensile strength of the trilinear/quadrilinear tensile-softening diagram (fracture mode I)
+    #  W -> Ratio between the strain at the third post-peak point and the
+    #       ultimate strain of the quadrilinear tensile-softening diagram (fracture mode I)
+    #  X -> Ratio between the stress at the third post-peak point and the
+    #       tensile strength of the quadrilinear tensile-softening diagram (fracture mode I)
+    #  Y -> Mode I fracture energy (Gf)
+    #  Z -> Parameter to define the mode I fracture energy available to the new crack
+    # AA -> Type of shear-softening diagram
+    #       - Available keywords: _NONE, _LINEAR, _TRILINEAR or _CORNELISSEN
+    # AB -> Ratio between the (shear strain minus peak shear strain) at the first post-peak point and
+    #       the (ultimate shear strain minus peak shear strain) of the trilinear shear-softening diagram
+    # AC -> Ratio between the the shear stress at the first post-peak point and the
+    #       shear strength of the trilinear shear-softening diagram
+    # AD -> Ratio between the (shear strain minus peak shear strain) at the second post-peak point and
+    #       the (ultimate shear strain minus peak shear strain) of the trilinear shear-softening diagram
+    # AE -> Ratio between the the shear stress at the second post-peak point and the
+    #       shear strength of the trilinear shear-softening diagram
+    # AF -> Type of shear retention factor law (keyword or constant value)
+    #       - Available keywords: _LINEAR, _QUADRATIC or _CUBIC
+    # AG -> Type of crack shear modelling appoach (used in shear retention model)
+    #       - Available keywords: _INCREMENTAL or _TOTAL
+    # AH -> Crack shear strength
+    # AI -> Shear fracture energy (Gfs=GfII=GfIII)
+    # AJ -> Type of unloading/reloading diagram
+    #       - Available keywords: _SECANT or _ELASTIC
+    # AK -> Crack band width for the fracture mode I (keyword or constant value)
+    #       - Available keywords: _SQRT_ELEMENT or _SQRT_IP
+    # AL -> Maximum n. of cracks
+    # AM -> Threshold angle (degress)
+    # A		   B	     C			      D		        	E		          F	         G
+    1			TEST01 	2.50E-06		 1e-005		      0.15       	 36000.0   	   30.0
+    # -------------------------------------------------------------------------------------------------------------------
+
+    #    H	    I	    J	    K	                 L	     M	     N	    O	       P
+    0.0025    0.3     30.0    _PERFECT_PLASTIC   0.00    54.55   0.5    0.25     6.5
+
+
+    # Q	    R
+    2.45	    _TRILINEAR
+    # -------------------------------------------------------------------------------------------------------------------
+
+    #   S			   T		    U 	        V      W        X      Y
+    0.2  		 0.7			0.75			    0.2  	 0.0	   	0.0  	 0.05
+
+    # -------------------------------------------------------------------------------------------------------------------
+
+    # Z	   AA		  AB	     AC	    AD       AE
+    2	  _NONE   0.0      0.0    0.0     0.0
+
+    # -------------------------------------------------------------------------------------------------------------------
+
+    #  AF		        AG              AH        AI	         AJ	          AK	 AL    AM
+    _QUADRATIC      _INCREMENTAL   0.0      0.00       _SECANT    _SQRT_IP   2     30 ;
+    # -------------------------------------------------------------------------------------------------------------------
+
+  </NLMM151>
+
+  <NUMERICAL_INTEGRATION>
+    ## Keywords: _GLEG, _GLOB or _NCOTES
+    ## Numerical integration definition
+    COUNT = 2 ; # N. of layouts of integration points
+
+    ## MY_GROUPtent of each column:
+    #  A -> Counter
+    #  B -> Name of the layout
+    #  C -> N. of keywords defining the layout
+    #  D -> Keywords defining the type of term and the n. of points in each direction
+    #
+    #  Valid syntax for D is the following:
+    #     _i_Sj_k
+    #
+    #     i: type of terms
+    #       G -> General use (stiffness matrix, springs and load vector)
+    #       M -> Membrane terms (stiffness matrix)
+    #       S -> Shear terms (stiffness matrix)
+    #       T -> Torsional terms (stiffness matrix)
+    #       B -> Bending terms (stiffness matrix)
+    #
+    #     j: direction
+    #       1 -> direction s1
+    #       2 -> direction s2
+    #       3 -> direction s3
+    #
+    #     k: n. of points in the specified direction
+    #
+    #     Note: k must be in the range [1,10]
+    #
+    #     Examples: _G_S1_5, _M_S2_1, _S_S3_2, _T_S1_7, _B_S2_10
+    #
+    #      A  B                                 C  D
+    # 2  MY_GLEG_PLANE_1X1                 2  _G_S1_1  _G_S2_1 ;
+    1  NUM_INTEG_1x1x1                     3  _G_S1_1  _G_S2_1  _G_S3_1 ;
+    2  NUM_INTEG_2x2x2                     3  _G_S1_2  _G_S2_2  _G_S3_2 ;
+  </NUMERICAL_INTEGRATION>
+
+<ELEMENT_NODES>
+  ## Nodes defining the elements
+  COUNT = 1 ; # N. of elements
+
+  ## Content of each column:
+  #  A -> Counter
+  #  B -> N. of nodes of the element
+  #  C -> Nodes of the element
+  #      A       B         C
+  1     8        1     2     4     3     5     6     8     7 ;
+  
+</ELEMENT_NODES>
+
+<ELEMENT_PROPERTIES>
+  ## Specification of the element properties
+  COUNT = 1 ; # N. of specifications
+
+  ## Content of each column:
+  #  A -> Counter
+  #  B -> Group name
+  #  C -> Phase (or phase range)
+  #  D -> Element (or element range)
+  #  E -> Element type
+  #  F -> Material type
+  #  G -> Material name
+  #  H -> Geometry type
+  #  I -> Geometry name
+  #  J -> Integration type (stiffness matrix)
+  #  K -> Integration name (stiffness matrix)
+  # A  B          C     D     E                   F             G         H           I               J            K
+    1	 MY_GROUP   1		  1			_SOLID_HEXA 			  _NLMM151			TEST01		_NONE 		   _NONE 		      _GLEG   		 NUM_INTEG_1x1x1 ;
+</ELEMENT_PROPERTIES>
+
+
+</MESH>
+
+# <ARC_LENGTH_PARAMETERS>
+#    DISPLACEMENT_CONTROL = _Y ; 
+#    POINT_NUMBER = 3 ;   
+#    DEGREE_OF_FREEDOM = _D2 ;  
+#    DISPLACEMENT_INCREMENT = -3.0e-04 ;
+# </ARC_LENGTH_PARAMETERS>
+
+<LOAD>
+
+<LOAD_CASE>
+
+<LOAD_CASE_PARAMETERS>
+   LOAD_CASE_NUMBER = 1 ;
+   LOAD_CASE_TITLE = Load case title (1) ;
+   LOAD_CASE_GROUP = MY_GROUP ;
+
+   INTEGRATION_TYPE = _GLEG ; # Keywords: _GLEG, _GLOB, _NCOTES or _DEFAULT
+   INTEGRATION_NAME = _DEFAULT ; # Defined in the <NUMERICAL_INTEGRATION> block or _DEFAULT
+</LOAD_CASE_PARAMETERS>
+
+<PRESCRIBED_DISPLACEMENTS>
+## Points with prescribed displacement
+   COUNT = 4 ; # N. of prescribed displacements
+
+## Content of each column:
+#  A -> Counter (or counter range)
+#  B -> Point number (or point number range)
+#  C -> Prescribed degree of freedom
+#       - Available keywords: _D1, _D2, _D3, _R1, _R2 or _R3
+#  D -> Value of the prescribed displacement
+#      A         B  C            D
+       1         3  _D2        100.00 ;
+       2         4  _D2        100.00 ;
+       3         7  _D2        100.00 ;
+       4         8  _D2        100.00 ;
+</PRESCRIBED_DISPLACEMENTS>
+
+</LOAD_CASE>
+
+
+  <LOAD_CASE>
+
+    <LOAD_CASE_PARAMETERS>
+      LOAD_CASE_NUMBER = 2 ;
+      LOAD_CASE_TITLE = Prescribed displacements ;
+      LOAD_CASE_GROUP = MY_GROUP ;
+
+      INTEGRATION_TYPE = _GLEG ; # Keywords: _GLEG, _GLOB, _NCOTES or _DEFAULT
+      INTEGRATION_NAME = _DEFAULT ; # Defined in the <NUMERICAL_INTEGRATION> block or _DEFAULT
+</LOAD_CASE_PARAMETERS>
+
+  #  <POINT_LOADS>
+      ## Point loads (global coordinate system)
+   #      COUNT = 4 ; # N. of point loads
+
+      ## Content of each column:
+      #  A -> Counter (or counter range)
+      #  B -> Loaded point (or loaded point range)
+      #  C -> Force - XG1
+      #  D -> Force - XG2
+      #  E -> Force - XG3
+      #  F -> Moment - XG1
+      #  G -> Moment - XG2
+      #  H -> Moment - XG3
+      #      A         B                 C                 D                 E                 F                 G                 H
+      #        1         5        0.00000000           0.00000000          -1000.00000000        0.00000000        0.00000000        0.00000000 ;
+      #        2         6        0.00000000           0.00000000          -1000.00000000        0.00000000        0.00000000        0.00000000 ;
+      #        3         7        0.00000000            0.0000000          -1000.00000000        0.00000000        0.00000000        0.00000000 ;
+      #        4         8        0.00000000            0.0000000          -1000.00000000        0.00000000        0.00000000        0.00000000 ;
+  #  </POINT_LOADS>
+
+    <PRESCRIBED_DISPLACEMENTS>
+      ## Points with prescribed displacement
+      COUNT = 4 ; # N. of prescribed displacements
+
+      ## Content of each column:
+      #  A -> Counter (or counter range)
+      #  B -> Point number (or point number range)
+      #  C -> Prescribed degree of freedom
+      #       - Available keywords: _D1, _D2, _D3, _R1, _R2 or _R3
+      #  D -> Value of the prescribed displacement
+      #      A         B  C            D
+      1         5  _D3       -100.00 ;
+      2         6  _D3       -100.00 ;
+      3         7  _D3       -100.00 ;
+      4         8  _D3       -100.00 ;
+    </PRESCRIBED_DISPLACEMENTS>
+    
+  </LOAD_CASE>
+  
+</LOAD>
+
+<LOAD_CASE_COMBINATIONS>
+
+  <COMBINATION>
+
+    <COMBINATION_PARAMETERS>
+      COMBINATION_NUMBER = 1 ;
+      COMBINATION_TITLE = Presc. Displ. ;
+      COMBINATION_GROUP = MY_GROUP ;
+      PHASE_NUMBER =  1 ;
+    </COMBINATION_PARAMETERS>
+
+    <LOAD_CASE_FACTORS>
+      ## Load case factors defining a combination
+      COUNT = 1 ; # N. of load cases in the combination
+
+      ## Content of each column:
+      #  A -> Counter (or counter range)
+      #  B -> Load case number (or load case range)
+      #  C -> Load case factor
+      #      A         B                C
+      1      1       0.0001000 ;
+    </LOAD_CASE_FACTORS>
+
+  </COMBINATION>
+
+  <COMBINATION>
+
+    <COMBINATION_PARAMETERS>
+      COMBINATION_NUMBER = 2 ;
+      COMBINATION_TITLE = Presc. Displ. ;
+      COMBINATION_GROUP = MY_GROUP ;
+      PHASE_NUMBER =  1 ;
+    </COMBINATION_PARAMETERS>
+
+    <LOAD_CASE_FACTORS>
+      ## Load case factors defining a combination
+      COUNT = 1 ; # N. of load cases in the combination
+
+      ## Content of each column:
+      #  A -> Counter (or counter range)
+      #  B -> Load case number (or load case range)
+      #  C -> Load case factor
+      #      A         B                C
+      1         1       0.00020000 ;
+    </LOAD_CASE_FACTORS>
+
+  </COMBINATION>
+
+  <COMBINATION>
+
+    <COMBINATION_PARAMETERS>
+      COMBINATION_NUMBER = 3 ;
+      COMBINATION_TITLE = Presc. Displ. ;
+      COMBINATION_GROUP = MY_GROUP ;
+      PHASE_NUMBER =  1 ;
+    </COMBINATION_PARAMETERS>
+
+    <LOAD_CASE_FACTORS>
+      ## Load case factors defining a combination
+      COUNT = 1 ; # N. of load cases in the combination
+
+      ## Content of each column:
+      #  A -> Counter (or counter range)
+      #  B -> Load case number (or load case range)
+      #  C -> Load case factor
+      #      A         B                C
+      1         1       0.00030000 ;
+    </LOAD_CASE_FACTORS>
+
+  </COMBINATION>
+
+  <COMBINATION>
+
+    <COMBINATION_PARAMETERS>
+      COMBINATION_NUMBER = 4 ;
+      COMBINATION_TITLE = Presc. Displ. ;
+      COMBINATION_GROUP = MY_GROUP ;
+      PHASE_NUMBER =  1 ;
+    </COMBINATION_PARAMETERS>
+
+    <LOAD_CASE_FACTORS>
+      ## Load case factors defining a combination
+      COUNT = 1 ; # N. of load cases in the combination
+
+      ## Content of each column:
+      #  A -> Counter (or counter range)
+      #  B -> Load case number (or load case range)
+      #  C -> Load case factor
+      #      A         B                C
+      1         1       0.00040000 ;
+    </LOAD_CASE_FACTORS>
+
+  </COMBINATION>
+
+  <COMBINATION>
+
+    <COMBINATION_PARAMETERS>
+      COMBINATION_NUMBER = 5 ;
+      COMBINATION_TITLE = Presc. Displ. ;
+      COMBINATION_GROUP = MY_GROUP ;
+      PHASE_NUMBER =  1 ;
+    </COMBINATION_PARAMETERS>
+
+    <LOAD_CASE_FACTORS>
+      ## Load case factors defining a combination
+      COUNT = 1 ; # N. of load cases in the combination
+
+      ## Content of each column:
+      #  A -> Counter (or counter range)
+      #  B -> Load case number (or load case range)
+      #  C -> Load case factor
+      #      A         B                C
+      1         1       0.00050000 ;
+    </LOAD_CASE_FACTORS>
+
+  </COMBINATION>
+
+  <COMBINATION>
+
+    <COMBINATION_PARAMETERS>
+      COMBINATION_NUMBER = 6 ;
+      COMBINATION_TITLE = Presc. Displ. ;
+      COMBINATION_GROUP = MY_GROUP ;
+      PHASE_NUMBER =  1 ;
+    </COMBINATION_PARAMETERS>
+
+    <LOAD_CASE_FACTORS>
+      ## Load case factors defining a combination
+      COUNT = 1 ; # N. of load cases in the combination
+
+      ## Content of each column:
+      #  A -> Counter (or counter range)
+      #  B -> Load case number (or load case range)
+      #  C -> Load case factor
+      #      A         B                C
+      1         1       0.00060000 ;
+    </LOAD_CASE_FACTORS>
+
+  </COMBINATION>
+
+  <COMBINATION>
+
+    <COMBINATION_PARAMETERS>
+      COMBINATION_NUMBER = 7 ;
+      COMBINATION_TITLE = Presc. Displ. ;
+      COMBINATION_GROUP = MY_GROUP ;
+      PHASE_NUMBER =  1 ;
+    </COMBINATION_PARAMETERS>
+
+    <LOAD_CASE_FACTORS>
+      ## Load case factors defining a combination
+      COUNT = 1 ; # N. of load cases in the combination
+
+      ## Content of each column:
+      #  A -> Counter (or counter range)
+      #  B -> Load case number (or load case range)
+      #  C -> Load case factor
+      #      A         B                C
+      1         1       0.00070000 ;
+    </LOAD_CASE_FACTORS>
+
+  </COMBINATION>
+
+  <COMBINATION>
+
+    <COMBINATION_PARAMETERS>
+      COMBINATION_NUMBER = 8 ;
+      COMBINATION_TITLE = Presc. Displ. ;
+      COMBINATION_GROUP = MY_GROUP ;
+      PHASE_NUMBER =  1 ;
+    </COMBINATION_PARAMETERS>
+
+    <LOAD_CASE_FACTORS>
+      ## Load case factors defining a combination
+      COUNT = 1 ; # N. of load cases in the combination
+
+      ## Content of each column:
+      #  A -> Counter (or counter range)
+      #  B -> Load case number (or load case range)
+      #  C -> Load case factor
+      #      A         B                C
+      1         1       0.000800000 ;
+    </LOAD_CASE_FACTORS>
+
+  </COMBINATION>
+
+  <COMBINATION>
+
+    <COMBINATION_PARAMETERS>
+      COMBINATION_NUMBER = 9 ;
+      COMBINATION_TITLE = Presc. Displ. ;
+      COMBINATION_GROUP = MY_GROUP ;
+      PHASE_NUMBER =  1 ;
+    </COMBINATION_PARAMETERS>
+
+    <LOAD_CASE_FACTORS>
+      ## Load case factors defining a combination
+      COUNT = 1 ; # N. of load cases in the combination
+
+      ## Content of each column:
+      #  A -> Counter (or counter range)
+      #  B -> Load case number (or load case range)
+      #  C -> Load case factor
+      #      A         B                C
+      1         1       0.00090000 ;
+    </LOAD_CASE_FACTORS>
+
+  </COMBINATION>
+
+  <COMBINATION>
+
+    <COMBINATION_PARAMETERS>
+      COMBINATION_NUMBER = 10 ;
+      COMBINATION_TITLE = Presc. Displ. ;
+      COMBINATION_GROUP = MY_GROUP ;
+      PHASE_NUMBER =  1 ;
+    </COMBINATION_PARAMETERS>
+
+    <LOAD_CASE_FACTORS>
+      ## Load case factors defining a combination
+      COUNT = 1 ; # N. of load cases in the combination
+
+      ## Content of each column:
+      #  A -> Counter (or counter range)
+      #  B -> Load case number (or load case range)
+      #  C -> Load case factor
+      #      A         B                C
+      1         1       0.00100000 ;
+    </LOAD_CASE_FACTORS>
+
+  </COMBINATION>
+
+  <COMBINATION>
+
+    <COMBINATION_PARAMETERS>
+      COMBINATION_NUMBER = 11 ;
+      COMBINATION_TITLE = Presc. Displ. ;
+      COMBINATION_GROUP = MY_GROUP ;
+      PHASE_NUMBER =  1 ;
+    </COMBINATION_PARAMETERS>
+
+    <LOAD_CASE_FACTORS>
+      ## Load case factors defining a combination
+      COUNT = 1 ; # N. of load cases in the combination
+
+      ## Content of each column:
+      #  A -> Counter (or counter range)
+      #  B -> Load case number (or load case range)
+      #  C -> Load case factor
+      #      A         B                C
+      1         1       0.00110000 ;
+    </LOAD_CASE_FACTORS>
+
+  </COMBINATION>
+
+  <COMBINATION>
+
+    <COMBINATION_PARAMETERS>
+      COMBINATION_NUMBER = 12 ;
+      COMBINATION_TITLE = Presc. Displ. ;
+      COMBINATION_GROUP = MY_GROUP ;
+      PHASE_NUMBER =  1 ;
+    </COMBINATION_PARAMETERS>
+
+    <LOAD_CASE_FACTORS>
+      ## Load case factors defining a combination
+      COUNT = 1 ; # N. of load cases in the combination
+
+      ## Content of each column:
+      #  A -> Counter (or counter range)
+      #  B -> Load case number (or load case range)
+      #  C -> Load case factor
+      #      A         B                C
+      1         1       0.00120000 ;
+    </LOAD_CASE_FACTORS>
+
+  </COMBINATION>
+
+  <COMBINATION>
+
+    <COMBINATION_PARAMETERS>
+      COMBINATION_NUMBER = 13 ;
+      COMBINATION_TITLE = Presc. Displ. ;
+      COMBINATION_GROUP = MY_GROUP ;
+      PHASE_NUMBER =  1 ;
+    </COMBINATION_PARAMETERS>
+
+    <LOAD_CASE_FACTORS>
+      ## Load case factors defining a combination
+      COUNT = 1 ; # N. of load cases in the combination
+
+      ## Content of each column:
+      #  A -> Counter (or counter range)
+      #  B -> Load case number (or load case range)
+      #  C -> Load case factor
+      #      A         B                C
+      1         1       0.00130000 ;
+    </LOAD_CASE_FACTORS>
+
+  </COMBINATION>
+
+  <COMBINATION>
+
+    <COMBINATION_PARAMETERS>
+      COMBINATION_NUMBER = 14 ;
+      COMBINATION_TITLE = Presc. Displ. ;
+      COMBINATION_GROUP = MY_GROUP ;
+      PHASE_NUMBER =  1 ;
+    </COMBINATION_PARAMETERS>
+
+    <LOAD_CASE_FACTORS>
+      ## Load case factors defining a combination
+      COUNT = 1 ; # N. of load cases in the combination
+
+      ## Content of each column:
+      #  A -> Counter (or counter range)
+      #  B -> Load case number (or load case range)
+      #  C -> Load case factor
+      #      A         B                C
+      1         1       0.00140000 ;
+    </LOAD_CASE_FACTORS>
+
+  </COMBINATION>
+
+  <COMBINATION>
+
+    <COMBINATION_PARAMETERS>
+      COMBINATION_NUMBER = 15 ;
+      COMBINATION_TITLE = Presc. Displ. ;
+      COMBINATION_GROUP = MY_GROUP ;
+      PHASE_NUMBER =  1 ;
+    </COMBINATION_PARAMETERS>
+
+    <LOAD_CASE_FACTORS>
+      ## Load case factors defining a combination
+      COUNT = 1 ; # N. of load cases in the combination
+
+      ## Content of each column:
+      #  A -> Counter (or counter range)
+      #  B -> Load case number (or load case range)
+      #  C -> Load case factor
+      #      A         B                C
+      1         1       0.00150000 ;
+    </LOAD_CASE_FACTORS>
+
+  </COMBINATION>
+
+
+
+
+
+  <COMBINATION>
+
+    <COMBINATION_PARAMETERS>
+      COMBINATION_NUMBER = 16 ;
+      COMBINATION_TITLE = Presc. Displ. ;
+      COMBINATION_GROUP = MY_GROUP ;
+      PHASE_NUMBER =  1 ;
+    </COMBINATION_PARAMETERS>
+
+    <LOAD_CASE_FACTORS>
+      ## Load case factors defining a combination
+      COUNT = 2 ; # N. of load cases in the combination
+
+      ## Content of each column:
+      #  A -> Counter (or counter range)
+      #  B -> Load case number (or load case range)
+      #  C -> Load case factor
+      #      A         B                C
+      1         1       0.0015 ;
+      2         2       0.00005 ;
+    </LOAD_CASE_FACTORS>
+
+  </COMBINATION>
+
+  <COMBINATION>
+
+    <COMBINATION_PARAMETERS>
+      COMBINATION_NUMBER = 17 ;
+      COMBINATION_TITLE = Presc. Displ. ;
+      COMBINATION_GROUP = MY_GROUP ;
+      PHASE_NUMBER =  1 ;
+    </COMBINATION_PARAMETERS>
+
+    <LOAD_CASE_FACTORS>
+      ## Load case factors defining a combination
+      COUNT = 2 ; # N. of load cases in the combination
+
+      ## Content of each column:
+      #  A -> Counter (or counter range)
+      #  B -> Load case number (or load case range)
+      #  C -> Load case factor
+      #      A         B                C
+      1         1       0.0015 ;
+      2         2       0.0001 ;
+    </LOAD_CASE_FACTORS>
+
+  </COMBINATION>
+
+  <COMBINATION>
+
+    <COMBINATION_PARAMETERS>
+      COMBINATION_NUMBER = 18 ;
+      COMBINATION_TITLE = Presc. Displ. ;
+      COMBINATION_GROUP = MY_GROUP ;
+      PHASE_NUMBER =  1 ;
+    </COMBINATION_PARAMETERS>
+
+    <LOAD_CASE_FACTORS>
+      ## Load case factors defining a combination
+      COUNT = 2 ; # N. of load cases in the combination
+
+      ## Content of each column:
+      #  A -> Counter (or counter range)
+      #  B -> Load case number (or load case range)
+      #  C -> Load case factor
+      #      A         B                C
+      1         1       0.0015 ;
+      2         2       0.00015 ;
+    </LOAD_CASE_FACTORS>
+
+  </COMBINATION>
+
+  <COMBINATION>
+
+    <COMBINATION_PARAMETERS>
+      COMBINATION_NUMBER = 19 ;
+      COMBINATION_TITLE = Presc. Displ. ;
+      COMBINATION_GROUP = MY_GROUP ;
+      PHASE_NUMBER =  1 ;
+    </COMBINATION_PARAMETERS>
+
+    <LOAD_CASE_FACTORS>
+      ## Load case factors defining a combination
+      COUNT = 2 ; # N. of load cases in the combination
+
+      ## Content of each column:
+      #  A -> Counter (or counter range)
+      #  B -> Load case number (or load case range)
+      #  C -> Load case factor
+      #      A         B                C
+      1         1       0.0015 ;
+      2         2       0.0002 ;
+    </LOAD_CASE_FACTORS>
+
+  </COMBINATION>
+
+  <COMBINATION>
+
+    <COMBINATION_PARAMETERS>
+      COMBINATION_NUMBER = 20 ;
+      COMBINATION_TITLE = Presc. Displ. ;
+      COMBINATION_GROUP = MY_GROUP ;
+      PHASE_NUMBER =  1 ;
+    </COMBINATION_PARAMETERS>
+
+    <LOAD_CASE_FACTORS>
+      ## Load case factors defining a combination
+      COUNT = 2 ; # N. of load cases in the combination
+
+      ## Content of each column:
+      #  A -> Counter (or counter range)
+      #  B -> Load case number (or load case range)
+      #  C -> Load case factor
+      #      A         B                C
+      1         1       0.0015 ;
+      2         2       0.00025 ;
+    </LOAD_CASE_FACTORS>
+
+  </COMBINATION>
+
+
+
+  <COMBINATION>
+
+    <COMBINATION_PARAMETERS>
+      COMBINATION_NUMBER = 21 ;
+      COMBINATION_TITLE = Presc. Displ. ;
+      COMBINATION_GROUP = MY_GROUP ;
+      PHASE_NUMBER =  1 ;
+    </COMBINATION_PARAMETERS>
+
+    <LOAD_CASE_FACTORS>
+      ## Load case factors defining a combination
+      COUNT = 2 ; # N. of load cases in the combination
+
+      ## Content of each column:
+      #  A -> Counter (or counter range)
+      #  B -> Load case number (or load case range)
+      #  C -> Load case factor
+      #      A         B                C
+      1         1       0.0015 ;
+      2         2       0.00030 ;
+    </LOAD_CASE_FACTORS>
+
+  </COMBINATION>
+
+  <COMBINATION>
+
+    <COMBINATION_PARAMETERS>
+      COMBINATION_NUMBER = 22 ;
+      COMBINATION_TITLE = Presc. Displ. ;
+      COMBINATION_GROUP = MY_GROUP ;
+      PHASE_NUMBER =  1 ;
+    </COMBINATION_PARAMETERS>
+
+    <LOAD_CASE_FACTORS>
+      ## Load case factors defining a combination
+      COUNT = 2 ; # N. of load cases in the combination
+
+      ## Content of each column:
+      #  A -> Counter (or counter range)
+      #  B -> Load case number (or load case range)
+      #  C -> Load case factor
+      #      A         B                C
+      1         1       0.0015 ;
+      2         2       0.00035 ;
+    </LOAD_CASE_FACTORS>
+
+  </COMBINATION>
+
+  <COMBINATION>
+
+    <COMBINATION_PARAMETERS>
+      COMBINATION_NUMBER = 23 ;
+      COMBINATION_TITLE = Presc. Displ. ;
+      COMBINATION_GROUP = MY_GROUP ;
+      PHASE_NUMBER =  1 ;
+    </COMBINATION_PARAMETERS>
+
+    <LOAD_CASE_FACTORS>
+      ## Load case factors defining a combination
+      COUNT = 2 ; # N. of load cases in the combination
+
+      ## Content of each column:
+      #  A -> Counter (or counter range)
+      #  B -> Load case number (or load case range)
+      #  C -> Load case factor
+      #      A         B                C
+      1         1       0.0015 ;
+      2         2       0.00040 ;
+    </LOAD_CASE_FACTORS>
+
+  </COMBINATION>
+
+  <COMBINATION>
+
+    <COMBINATION_PARAMETERS>
+      COMBINATION_NUMBER = 24 ;
+      COMBINATION_TITLE = Presc. Displ. ;
+      COMBINATION_GROUP = MY_GROUP ;
+      PHASE_NUMBER =  1 ;
+    </COMBINATION_PARAMETERS>
+
+    <LOAD_CASE_FACTORS>
+      ## Load case factors defining a combination
+      COUNT = 2 ; # N. of load cases in the combination
+
+      ## Content of each column:
+      #  A -> Counter (or counter range)
+      #  B -> Load case number (or load case range)
+      #  C -> Load case factor
+      #      A         B                C
+      1         1       0.0015 ;
+      2         2       0.00045 ;
+    </LOAD_CASE_FACTORS>
+
+  </COMBINATION>
+
+  <COMBINATION>
+
+    <COMBINATION_PARAMETERS>
+      COMBINATION_NUMBER = 25 ;
+      COMBINATION_TITLE = Presc. Displ. ;
+      COMBINATION_GROUP = MY_GROUP ;
+      PHASE_NUMBER =  1 ;
+    </COMBINATION_PARAMETERS>
+
+    <LOAD_CASE_FACTORS>
+      ## Load case factors defining a combination
+      COUNT = 2 ; # N. of load cases in the combination
+
+      ## Content of each column:
+      #  A -> Counter (or counter range)
+      #  B -> Load case number (or load case range)
+      #  C -> Load case factor
+      #      A         B                C
+      1         1       0.0015 ;
+      2         2       0.00050 ;
+    </LOAD_CASE_FACTORS>
+
+  </COMBINATION>
+
+  <COMBINATION>
+
+    <COMBINATION_PARAMETERS>
+      COMBINATION_NUMBER = 26 ;
+      COMBINATION_TITLE = Presc. Displ. ;
+      COMBINATION_GROUP = MY_GROUP ;
+      PHASE_NUMBER =  1 ;
+    </COMBINATION_PARAMETERS>
+
+    <LOAD_CASE_FACTORS>
+      ## Load case factors defining a combination
+      COUNT = 2 ; # N. of load cases in the combination
+
+      ## Content of each column:
+      #  A -> Counter (or counter range)
+      #  B -> Load case number (or load case range)
+      #  C -> Load case factor
+      #      A         B                C
+      1         1       0.0015 ;
+      2         2       0.00055 ;
+    </LOAD_CASE_FACTORS>
+
+  </COMBINATION>
+
+  <COMBINATION>
+
+    <COMBINATION_PARAMETERS>
+      COMBINATION_NUMBER = 27 ;
+      COMBINATION_TITLE = Presc. Displ. ;
+      COMBINATION_GROUP = MY_GROUP ;
+      PHASE_NUMBER =  1 ;
+    </COMBINATION_PARAMETERS>
+
+    <LOAD_CASE_FACTORS>
+      ## Load case factors defining a combination
+      COUNT = 2 ; # N. of load cases in the combination
+
+      ## Content of each column:
+      #  A -> Counter (or counter range)
+      #  B -> Load case number (or load case range)
+      #  C -> Load case factor
+      #      A         B                C
+      1         1       0.0015 ;
+      2         2       0.00060 ;
+    </LOAD_CASE_FACTORS>
+
+  </COMBINATION>
+
+  <COMBINATION>
+
+    <COMBINATION_PARAMETERS>
+      COMBINATION_NUMBER = 28 ;
+      COMBINATION_TITLE = Presc. Displ. ;
+      COMBINATION_GROUP = MY_GROUP ;
+      PHASE_NUMBER =  1 ;
+    </COMBINATION_PARAMETERS>
+
+    <LOAD_CASE_FACTORS>
+      ## Load case factors defining a combination
+      COUNT = 2 ; # N. of load cases in the combination
+
+      ## Content of each column:
+      #  A -> Counter (or counter range)
+      #  B -> Load case number (or load case range)
+      #  C -> Load case factor
+      #      A         B                C
+      1         1       0.0015 ;
+      2         2       0.00065 ;
+    </LOAD_CASE_FACTORS>
+
+  </COMBINATION>
+
+  <COMBINATION>
+
+    <COMBINATION_PARAMETERS>
+      COMBINATION_NUMBER = 29 ;
+      COMBINATION_TITLE = Presc. Displ. ;
+      COMBINATION_GROUP = MY_GROUP ;
+      PHASE_NUMBER =  1 ;
+    </COMBINATION_PARAMETERS>
+
+    <LOAD_CASE_FACTORS>
+      ## Load case factors defining a combination
+      COUNT = 2 ; # N. of load cases in the combination
+
+      ## Content of each column:
+      #  A -> Counter (or counter range)
+      #  B -> Load case number (or load case range)
+      #  C -> Load case factor
+      #      A         B                C
+      1         1       0.0015 ;
+      2         2       0.00070 ;
+    </LOAD_CASE_FACTORS>
+
+  </COMBINATION>
+
+  <COMBINATION>
+
+    <COMBINATION_PARAMETERS>
+      COMBINATION_NUMBER = 30 ;
+      COMBINATION_TITLE = Presc. Displ. ;
+      COMBINATION_GROUP = MY_GROUP ;
+      PHASE_NUMBER =  1 ;
+    </COMBINATION_PARAMETERS>
+
+    <LOAD_CASE_FACTORS>
+      ## Load case factors defining a combination
+      COUNT = 2 ; # N. of load cases in the combination
+
+      ## Content of each column:
+      #  A -> Counter (or counter range)
+      #  B -> Load case number (or load case range)
+      #  C -> Load case factor
+      #      A         B                C
+      1         1       0.0015 ;
+      2         2       0.00075 ;
+    </LOAD_CASE_FACTORS>
+
+  </COMBINATION>
+
+  <COMBINATION>
+
+    <COMBINATION_PARAMETERS>
+      COMBINATION_NUMBER = 31 ;
+      COMBINATION_TITLE = Presc. Displ. ;
+      COMBINATION_GROUP = MY_GROUP ;
+      PHASE_NUMBER =  1 ;
+    </COMBINATION_PARAMETERS>
+
+    <LOAD_CASE_FACTORS>
+      ## Load case factors defining a combination
+      COUNT = 2 ; # N. of load cases in the combination
+
+      ## Content of each column:
+      #  A -> Counter (or counter range)
+      #  B -> Load case number (or load case range)
+      #  C -> Load case factor
+      #      A         B                C
+      1         1       0.0015 ;
+      2         2       0.00080 ;
+    </LOAD_CASE_FACTORS>
+
+  </COMBINATION>
+
+  <COMBINATION>
+
+    <COMBINATION_PARAMETERS>
+      COMBINATION_NUMBER = 32 ;
+      COMBINATION_TITLE = Presc. Displ. ;
+      COMBINATION_GROUP = MY_GROUP ;
+      PHASE_NUMBER =  1 ;
+    </COMBINATION_PARAMETERS>
+
+    <LOAD_CASE_FACTORS>
+      ## Load case factors defining a combination
+      COUNT = 2 ; # N. of load cases in the combination
+
+      ## Content of each column:
+      #  A -> Counter (or counter range)
+      #  B -> Load case number (or load case range)
+      #  C -> Load case factor
+      #      A         B                C
+      1         1       0.0015 ;
+      2         2       0.00085 ;
+    </LOAD_CASE_FACTORS>
+
+  </COMBINATION>
+
+  <COMBINATION>
+
+    <COMBINATION_PARAMETERS>
+      COMBINATION_NUMBER = 33 ;
+      COMBINATION_TITLE = Presc. Displ. ;
+      COMBINATION_GROUP = MY_GROUP ;
+      PHASE_NUMBER =  1 ;
+    </COMBINATION_PARAMETERS>
+
+    <LOAD_CASE_FACTORS>
+      ## Load case factors defining a combination
+      COUNT = 2 ; # N. of load cases in the combination
+
+      ## Content of each column:
+      #  A -> Counter (or counter range)
+      #  B -> Load case number (or load case range)
+      #  C -> Load case factor
+      #      A         B                C
+      1         1       0.0015 ;
+      2         2       0.00090 ;
+    </LOAD_CASE_FACTORS>
+
+  </COMBINATION>
+
+  <COMBINATION>
+
+    <COMBINATION_PARAMETERS>
+      COMBINATION_NUMBER = 34 ;
+      COMBINATION_TITLE = Presc. Displ. ;
+      COMBINATION_GROUP = MY_GROUP ;
+      PHASE_NUMBER =  1 ;
+    </COMBINATION_PARAMETERS>
+
+    <LOAD_CASE_FACTORS>
+      ## Load case factors defining a combination
+      COUNT = 2 ; # N. of load cases in the combination
+
+      ## Content of each column:
+      #  A -> Counter (or counter range)
+      #  B -> Load case number (or load case range)
+      #  C -> Load case factor
+      #      A         B                C
+      1         1       0.0015 ;
+      2         2       0.00095 ;
+    </LOAD_CASE_FACTORS>
+
+  </COMBINATION>
+
+  <COMBINATION>
+
+    <COMBINATION_PARAMETERS>
+      COMBINATION_NUMBER = 35 ;
+      COMBINATION_TITLE = Presc. Displ. ;
+      COMBINATION_GROUP = MY_GROUP ;
+      PHASE_NUMBER =  1 ;
+    </COMBINATION_PARAMETERS>
+
+    <LOAD_CASE_FACTORS>
+      ## Load case factors defining a combination
+      COUNT = 2 ; # N. of load cases in the combination
+
+      ## Content of each column:
+      #  A -> Counter (or counter range)
+      #  B -> Load case number (or load case range)
+      #  C -> Load case factor
+      #      A         B                C
+      1         1       0.0015 ;
+      2         2       0.001 ;
+    </LOAD_CASE_FACTORS>
+
+  </COMBINATION>
+
+  <COMBINATION>
+
+    <COMBINATION_PARAMETERS>
+      COMBINATION_NUMBER = 36 ;
+      COMBINATION_TITLE = Presc. Displ. ;
+      COMBINATION_GROUP = MY_GROUP ;
+      PHASE_NUMBER =  1 ;
+    </COMBINATION_PARAMETERS>
+
+    <LOAD_CASE_FACTORS>
+      ## Load case factors defining a combination
+      COUNT = 2 ; # N. of load cases in the combination
+
+      ## Content of each column:
+      #  A -> Counter (or counter range)
+      #  B -> Load case number (or load case range)
+      #  C -> Load case factor
+      #      A         B                C
+      1         1       0.0015 ;
+      2         2       0.0011 ;
+    </LOAD_CASE_FACTORS>
+
+  </COMBINATION>
+
+  <COMBINATION>
+
+    <COMBINATION_PARAMETERS>
+      COMBINATION_NUMBER = 37 ;
+      COMBINATION_TITLE = Presc. Displ. ;
+      COMBINATION_GROUP = MY_GROUP ;
+      PHASE_NUMBER =  1 ;
+    </COMBINATION_PARAMETERS>
+
+    <LOAD_CASE_FACTORS>
+      ## Load case factors defining a combination
+      COUNT = 2 ; # N. of load cases in the combination
+
+      ## Content of each column:
+      #  A -> Counter (or counter range)
+      #  B -> Load case number (or load case range)
+      #  C -> Load case factor
+      #      A         B                C
+      1         1       0.0015 ;
+      2         2       0.0012 ;
+    </LOAD_CASE_FACTORS>
+
+  </COMBINATION>
+
+  <COMBINATION>
+
+    <COMBINATION_PARAMETERS>
+      COMBINATION_NUMBER = 38 ;
+      COMBINATION_TITLE = Presc. Displ. ;
+      COMBINATION_GROUP = MY_GROUP ;
+      PHASE_NUMBER =  1 ;
+    </COMBINATION_PARAMETERS>
+
+    <LOAD_CASE_FACTORS>
+      ## Load case factors defining a combination
+      COUNT = 2 ; # N. of load cases in the combination
+
+      ## Content of each column:
+      #  A -> Counter (or counter range)
+      #  B -> Load case number (or load case range)
+      #  C -> Load case factor
+      #      A         B                C
+      1         1       0.0015 ;
+      2         2       0.0013 ;
+    </LOAD_CASE_FACTORS>
+
+  </COMBINATION>
+
+  <COMBINATION>
+
+    <COMBINATION_PARAMETERS>
+      COMBINATION_NUMBER = 39 ;
+      COMBINATION_TITLE = Presc. Displ. ;
+      COMBINATION_GROUP = MY_GROUP ;
+      PHASE_NUMBER =  1 ;
+    </COMBINATION_PARAMETERS>
+
+    <LOAD_CASE_FACTORS>
+      ## Load case factors defining a combination
+      COUNT = 2 ; # N. of load cases in the combination
+
+      ## Content of each column:
+      #  A -> Counter (or counter range)
+      #  B -> Load case number (or load case range)
+      #  C -> Load case factor
+      #      A         B                C
+      1         1       0.0015 ;
+      2         2       0.0014 ;
+    </LOAD_CASE_FACTORS>
+
+  </COMBINATION>
+
+  <COMBINATION>
+
+    <COMBINATION_PARAMETERS>
+      COMBINATION_NUMBER = 40 ;
+      COMBINATION_TITLE = Presc. Displ. ;
+      COMBINATION_GROUP = MY_GROUP ;
+      PHASE_NUMBER =  1 ;
+    </COMBINATION_PARAMETERS>
+
+    <LOAD_CASE_FACTORS>
+      ## Load case factors defining a combination
+      COUNT = 2 ; # N. of load cases in the combination
+
+      ## Content of each column:
+      #  A -> Counter (or counter range)
+      #  B -> Load case number (or load case range)
+      #  C -> Load case factor
+      #      A         B                C
+      1         1       0.0015 ;
+      2         2       0.0015 ;
+    </LOAD_CASE_FACTORS>
+
+  </COMBINATION>
+
+  <COMBINATION>
+
+    <COMBINATION_PARAMETERS>
+      COMBINATION_NUMBER = 41 ;
+      COMBINATION_TITLE = Presc. Displ. ;
+      COMBINATION_GROUP = MY_GROUP ;
+      PHASE_NUMBER =  1 ;
+    </COMBINATION_PARAMETERS>
+
+    <LOAD_CASE_FACTORS>
+      ## Load case factors defining a combination
+      COUNT = 2 ; # N. of load cases in the combination
+
+      ## Content of each column:
+      #  A -> Counter (or counter range)
+      #  B -> Load case number (or load case range)
+      #  C -> Load case factor
+      #      A         B                C
+      1         1       0.0015 ;
+      2         2       0.0016 ;
+    </LOAD_CASE_FACTORS>
+
+  </COMBINATION>
+
+  <COMBINATION>
+
+    <COMBINATION_PARAMETERS>
+      COMBINATION_NUMBER = 42 ;
+      COMBINATION_TITLE = Presc. Displ. ;
+      COMBINATION_GROUP = MY_GROUP ;
+      PHASE_NUMBER =  1 ;
+    </COMBINATION_PARAMETERS>
+
+    <LOAD_CASE_FACTORS>
+      ## Load case factors defining a combination
+      COUNT = 2 ; # N. of load cases in the combination
+
+      ## Content of each column:
+      #  A -> Counter (or counter range)
+      #  B -> Load case number (or load case range)
+      #  C -> Load case factor
+      #      A         B                C
+      1         1       0.0015 ;
+      2         2       0.0017 ;
+    </LOAD_CASE_FACTORS>
+
+  </COMBINATION>
+
+  <COMBINATION>
+
+    <COMBINATION_PARAMETERS>
+      COMBINATION_NUMBER = 43 ;
+      COMBINATION_TITLE = Presc. Displ. ;
+      COMBINATION_GROUP = MY_GROUP ;
+      PHASE_NUMBER =  1 ;
+    </COMBINATION_PARAMETERS>
+
+    <LOAD_CASE_FACTORS>
+      ## Load case factors defining a combination
+      COUNT = 2 ; # N. of load cases in the combination
+
+      ## Content of each column:
+      #  A -> Counter (or counter range)
+      #  B -> Load case number (or load case range)
+      #  C -> Load case factor
+      #      A         B                C
+      1         1       0.0015 ;
+      2         2       0.0018 ;
+    </LOAD_CASE_FACTORS>
+
+  </COMBINATION>
+
+  <COMBINATION>
+
+    <COMBINATION_PARAMETERS>
+      COMBINATION_NUMBER = 44 ;
+      COMBINATION_TITLE = Presc. Displ. ;
+      COMBINATION_GROUP = MY_GROUP ;
+      PHASE_NUMBER =  1 ;
+    </COMBINATION_PARAMETERS>
+
+    <LOAD_CASE_FACTORS>
+      ## Load case factors defining a combination
+      COUNT = 2 ; # N. of load cases in the combination
+
+      ## Content of each column:
+      #  A -> Counter (or counter range)
+      #  B -> Load case number (or load case range)
+      #  C -> Load case factor
+      #      A         B                C
+      1         1       0.0015 ;
+      2         2       0.0019 ;
+    </LOAD_CASE_FACTORS>
+
+  </COMBINATION>
+
+  <COMBINATION>
+
+    <COMBINATION_PARAMETERS>
+      COMBINATION_NUMBER = 45 ;
+      COMBINATION_TITLE = Presc. Displ. ;
+      COMBINATION_GROUP = MY_GROUP ;
+      PHASE_NUMBER =  1 ;
+    </COMBINATION_PARAMETERS>
+
+    <LOAD_CASE_FACTORS>
+      ## Load case factors defining a combination
+      COUNT = 2 ; # N. of load cases in the combination
+
+      ## Content of each column:
+      #  A -> Counter (or counter range)
+      #  B -> Load case number (or load case range)
+      #  C -> Load case factor
+      #      A         B                C
+      1         1       0.0015 ;
+      2         2       0.0020 ;
+    </LOAD_CASE_FACTORS>
+
+  </COMBINATION>
+
+  
+  
+  
+  <COMBINATION>
+
+    <COMBINATION_PARAMETERS>
+      COMBINATION_NUMBER = 46 ;
+      COMBINATION_TITLE = Presc. Displ. ;
+      COMBINATION_GROUP = MY_GROUP ;
+      PHASE_NUMBER =  1 ;
+    </COMBINATION_PARAMETERS>
+
+    <LOAD_CASE_FACTORS>
+      ## Load case factors defining a combination
+      COUNT = 2 ; # N. of load cases in the combination
+
+      ## Content of each column:
+      #  A -> Counter (or counter range)
+      #  B -> Load case number (or load case range)
+      #  C -> Load case factor
+      #      A         B                C
+      1         1       0.0015 ;
+      2         2       0.0021 ;
+    </LOAD_CASE_FACTORS>
+
+  </COMBINATION>
+
+  <COMBINATION>
+
+    <COMBINATION_PARAMETERS>
+      COMBINATION_NUMBER = 47 ;
+      COMBINATION_TITLE = Presc. Displ. ;
+      COMBINATION_GROUP = MY_GROUP ;
+      PHASE_NUMBER =  1 ;
+    </COMBINATION_PARAMETERS>
+
+    <LOAD_CASE_FACTORS>
+      ## Load case factors defining a combination
+      COUNT = 2 ; # N. of load cases in the combination
+
+      ## Content of each column:
+      #  A -> Counter (or counter range)
+      #  B -> Load case number (or load case range)
+      #  C -> Load case factor
+      #      A         B                C
+      1         1       0.0015 ;
+      2         2       0.0022 ;
+    </LOAD_CASE_FACTORS>
+
+  </COMBINATION>
+
+  <COMBINATION>
+
+    <COMBINATION_PARAMETERS>
+      COMBINATION_NUMBER = 48 ;
+      COMBINATION_TITLE = Presc. Displ. ;
+      COMBINATION_GROUP = MY_GROUP ;
+      PHASE_NUMBER =  1 ;
+    </COMBINATION_PARAMETERS>
+
+    <LOAD_CASE_FACTORS>
+      ## Load case factors defining a combination
+      COUNT = 2 ; # N. of load cases in the combination
+
+      ## Content of each column:
+      #  A -> Counter (or counter range)
+      #  B -> Load case number (or load case range)
+      #  C -> Load case factor
+      #      A         B                C
+      1         1       0.0015 ;
+      2         2       0.0023 ;
+    </LOAD_CASE_FACTORS>
+
+  </COMBINATION>
+
+  <COMBINATION>
+
+    <COMBINATION_PARAMETERS>
+      COMBINATION_NUMBER = 49 ;
+      COMBINATION_TITLE = Presc. Displ. ;
+      COMBINATION_GROUP = MY_GROUP ;
+      PHASE_NUMBER =  1 ;
+    </COMBINATION_PARAMETERS>
+
+    <LOAD_CASE_FACTORS>
+      ## Load case factors defining a combination
+      COUNT = 2 ; # N. of load cases in the combination
+
+      ## Content of each column:
+      #  A -> Counter (or counter range)
+      #  B -> Load case number (or load case range)
+      #  C -> Load case factor
+      #      A         B                C
+      1         1       0.0015 ;
+      2         2       0.0024 ;
+    </LOAD_CASE_FACTORS>
+
+  </COMBINATION>
+
+  <COMBINATION>
+
+    <COMBINATION_PARAMETERS>
+      COMBINATION_NUMBER = 50 ;
+      COMBINATION_TITLE = Presc. Displ. ;
+      COMBINATION_GROUP = MY_GROUP ;
+      PHASE_NUMBER =  1 ;
+    </COMBINATION_PARAMETERS>
+
+    <LOAD_CASE_FACTORS>
+      ## Load case factors defining a combination
+      COUNT = 2 ; # N. of load cases in the combination
+
+      ## Content of each column:
+      #  A -> Counter (or counter range)
+      #  B -> Load case number (or load case range)
+      #  C -> Load case factor
+      #      A         B                C
+      1         1       0.0015 ;
+      2         2       0.0025 ;
+    </LOAD_CASE_FACTORS>
+
+  </COMBINATION>
+
+  
+  <COMBINATION>
+
+    <COMBINATION_PARAMETERS>
+      COMBINATION_NUMBER = 51 ;
+      COMBINATION_TITLE = Presc. Displ. ;
+      COMBINATION_GROUP = MY_GROUP ;
+      PHASE_NUMBER =  1 ;
+    </COMBINATION_PARAMETERS>
+
+    <LOAD_CASE_FACTORS>
+      ## Load case factors defining a combination
+      COUNT = 2 ; # N. of load cases in the combination
+
+      ## Content of each column:
+      #  A -> Counter (or counter range)
+      #  B -> Load case number (or load case range)
+      #  C -> Load case factor
+      #      A         B                C
+      1         1       0.0015 ;
+      2         2       0.0026 ;
+    </LOAD_CASE_FACTORS>
+
+  </COMBINATION>
+
+  <COMBINATION>
+
+    <COMBINATION_PARAMETERS>
+      COMBINATION_NUMBER = 52 ;
+      COMBINATION_TITLE = Presc. Displ. ;
+      COMBINATION_GROUP = MY_GROUP ;
+      PHASE_NUMBER =  1 ;
+    </COMBINATION_PARAMETERS>
+
+    <LOAD_CASE_FACTORS>
+      ## Load case factors defining a combination
+      COUNT = 2 ; # N. of load cases in the combination
+
+      ## Content of each column:
+      #  A -> Counter (or counter range)
+      #  B -> Load case number (or load case range)
+      #  C -> Load case factor
+      #      A         B                C
+      1         1       0.0015 ;
+      2         2       0.0027 ;
+    </LOAD_CASE_FACTORS>
+
+  </COMBINATION>
+
+  <COMBINATION>
+
+    <COMBINATION_PARAMETERS>
+      COMBINATION_NUMBER = 53 ;
+      COMBINATION_TITLE = Presc. Displ. ;
+      COMBINATION_GROUP = MY_GROUP ;
+      PHASE_NUMBER =  1 ;
+    </COMBINATION_PARAMETERS>
+
+    <LOAD_CASE_FACTORS>
+      ## Load case factors defining a combination
+      COUNT = 2 ; # N. of load cases in the combination
+
+      ## Content of each column:
+      #  A -> Counter (or counter range)
+      #  B -> Load case number (or load case range)
+      #  C -> Load case factor
+      #      A         B                C
+      1         1       0.0015 ;
+      2         2       0.0028 ;
+    </LOAD_CASE_FACTORS>
+
+  </COMBINATION>
+
+  <COMBINATION>
+
+    <COMBINATION_PARAMETERS>
+      COMBINATION_NUMBER = 54 ;
+      COMBINATION_TITLE = Presc. Displ. ;
+      COMBINATION_GROUP = MY_GROUP ;
+      PHASE_NUMBER =  1 ;
+    </COMBINATION_PARAMETERS>
+
+    <LOAD_CASE_FACTORS>
+      ## Load case factors defining a combination
+      COUNT = 2 ; # N. of load cases in the combination
+
+      ## Content of each column:
+      #  A -> Counter (or counter range)
+      #  B -> Load case number (or load case range)
+      #  C -> Load case factor
+      #      A         B                C
+      1         1       0.0015 ;
+      2         2       0.0029 ;
+    </LOAD_CASE_FACTORS>
+
+  </COMBINATION>
+
+  <COMBINATION>
+
+    <COMBINATION_PARAMETERS>
+      COMBINATION_NUMBER = 55 ;
+      COMBINATION_TITLE = Presc. Displ. ;
+      COMBINATION_GROUP = MY_GROUP ;
+      PHASE_NUMBER =  1 ;
+    </COMBINATION_PARAMETERS>
+
+    <LOAD_CASE_FACTORS>
+      ## Load case factors defining a combination
+      COUNT = 2 ; # N. of load cases in the combination
+
+      ## Content of each column:
+      #  A -> Counter (or counter range)
+      #  B -> Load case number (or load case range)
+      #  C -> Load case factor
+      #      A         B                C
+      1         1       0.0015 ;
+      2         2       0.0030 ;
+    </LOAD_CASE_FACTORS>
+
+  </COMBINATION>
+
+  <COMBINATION>
+
+    <COMBINATION_PARAMETERS>
+      COMBINATION_NUMBER = 56 ;
+      COMBINATION_TITLE = Presc. Displ. ;
+      COMBINATION_GROUP = MY_GROUP ;
+      PHASE_NUMBER =  1 ;
+    </COMBINATION_PARAMETERS>
+
+    <LOAD_CASE_FACTORS>
+      ## Load case factors defining a combination
+      COUNT = 2 ; # N. of load cases in the combination
+
+      ## Content of each column:
+      #  A -> Counter (or counter range)
+      #  B -> Load case number (or load case range)
+      #  C -> Load case factor
+      #      A         B                C
+      1         1       0.0015 ;
+      2         2       0.0031 ;
+    </LOAD_CASE_FACTORS>
+
+  </COMBINATION>
+
+  <COMBINATION>
+
+    <COMBINATION_PARAMETERS>
+      COMBINATION_NUMBER = 57 ;
+      COMBINATION_TITLE = Presc. Displ. ;
+      COMBINATION_GROUP = MY_GROUP ;
+      PHASE_NUMBER =  1 ;
+    </COMBINATION_PARAMETERS>
+
+    <LOAD_CASE_FACTORS>
+      ## Load case factors defining a combination
+      COUNT = 2 ; # N. of load cases in the combination
+
+      ## Content of each column:
+      #  A -> Counter (or counter range)
+      #  B -> Load case number (or load case range)
+      #  C -> Load case factor
+      #      A         B                C
+      1         1       0.0015 ;
+      2         2       0.0032 ;
+    </LOAD_CASE_FACTORS>
+
+  </COMBINATION>
+
+  <COMBINATION>
+
+    <COMBINATION_PARAMETERS>
+      COMBINATION_NUMBER = 58 ;
+      COMBINATION_TITLE = Presc. Displ. ;
+      COMBINATION_GROUP = MY_GROUP ;
+      PHASE_NUMBER =  1 ;
+    </COMBINATION_PARAMETERS>
+
+    <LOAD_CASE_FACTORS>
+      ## Load case factors defining a combination
+      COUNT = 2 ; # N. of load cases in the combination
+
+      ## Content of each column:
+      #  A -> Counter (or counter range)
+      #  B -> Load case number (or load case range)
+      #  C -> Load case factor
+      #      A         B                C
+      1         1       0.0015 ;
+      2         2       0.0033 ;
+    </LOAD_CASE_FACTORS>
+
+  </COMBINATION>
+
+  <COMBINATION>
+
+    <COMBINATION_PARAMETERS>
+      COMBINATION_NUMBER = 59 ;
+      COMBINATION_TITLE = Presc. Displ. ;
+      COMBINATION_GROUP = MY_GROUP ;
+      PHASE_NUMBER =  1 ;
+    </COMBINATION_PARAMETERS>
+
+    <LOAD_CASE_FACTORS>
+      ## Load case factors defining a combination
+      COUNT = 2 ; # N. of load cases in the combination
+
+      ## Content of each column:
+      #  A -> Counter (or counter range)
+      #  B -> Load case number (or load case range)
+      #  C -> Load case factor
+      #      A         B                C
+      1         1       0.0015 ;
+      2         2       0.0034 ;
+    </LOAD_CASE_FACTORS>
+
+  </COMBINATION>
+
+  <COMBINATION>
+
+    <COMBINATION_PARAMETERS>
+      COMBINATION_NUMBER = 60 ;
+      COMBINATION_TITLE = Presc. Displ. ;
+      COMBINATION_GROUP = MY_GROUP ;
+      PHASE_NUMBER =  1 ;
+    </COMBINATION_PARAMETERS>
+
+    <LOAD_CASE_FACTORS>
+      ## Load case factors defining a combination
+      COUNT = 2 ; # N. of load cases in the combination
+
+      ## Content of each column:
+      #  A -> Counter (or counter range)
+      #  B -> Load case number (or load case range)
+      #  C -> Load case factor
+      #      A         B                C
+      1         1       0.0015 ;
+      2         2       0.0035 ;
+    </LOAD_CASE_FACTORS>
+
+  </COMBINATION>
+
+ 
+  <COMBINATION>
+
+    <COMBINATION_PARAMETERS>
+      COMBINATION_NUMBER = 61 ;
+      COMBINATION_TITLE = Presc. Displ. ;
+      COMBINATION_GROUP = MY_GROUP ;
+      PHASE_NUMBER =  1 ;
+    </COMBINATION_PARAMETERS>
+
+    <LOAD_CASE_FACTORS>
+      ## Load case factors defining a combination
+      COUNT = 2 ; # N. of load cases in the combination
+
+      ## Content of each column:
+      #  A -> Counter (or counter range)
+      #  B -> Load case number (or load case range)
+      #  C -> Load case factor
+      #      A         B                C
+      1         1       0.0015 ;
+      2         2       0.0036 ;
+    </LOAD_CASE_FACTORS>
+
+  </COMBINATION>
+
+  <COMBINATION>
+
+    <COMBINATION_PARAMETERS>
+      COMBINATION_NUMBER = 62 ;
+      COMBINATION_TITLE = Presc. Displ. ;
+      COMBINATION_GROUP = MY_GROUP ;
+      PHASE_NUMBER =  1 ;
+    </COMBINATION_PARAMETERS>
+
+    <LOAD_CASE_FACTORS>
+      ## Load case factors defining a combination
+      COUNT = 2 ; # N. of load cases in the combination
+
+      ## Content of each column:
+      #  A -> Counter (or counter range)
+      #  B -> Load case number (or load case range)
+      #  C -> Load case factor
+      #      A         B                C
+      1         1       0.0015 ;
+      2         2       0.0037 ;
+    </LOAD_CASE_FACTORS>
+
+  </COMBINATION>
+
+  <COMBINATION>
+
+    <COMBINATION_PARAMETERS>
+      COMBINATION_NUMBER = 63 ;
+      COMBINATION_TITLE = Presc. Displ. ;
+      COMBINATION_GROUP = MY_GROUP ;
+      PHASE_NUMBER =  1 ;
+    </COMBINATION_PARAMETERS>
+
+    <LOAD_CASE_FACTORS>
+      ## Load case factors defining a combination
+      COUNT = 2 ; # N. of load cases in the combination
+
+      ## Content of each column:
+      #  A -> Counter (or counter range)
+      #  B -> Load case number (or load case range)
+      #  C -> Load case factor
+      #      A         B                C
+      1         1       0.0015 ;
+      2         2       0.0038 ;
+    </LOAD_CASE_FACTORS>
+
+  </COMBINATION>
+
+  <COMBINATION>
+
+    <COMBINATION_PARAMETERS>
+      COMBINATION_NUMBER = 64 ;
+      COMBINATION_TITLE = Presc. Displ. ;
+      COMBINATION_GROUP = MY_GROUP ;
+      PHASE_NUMBER =  1 ;
+    </COMBINATION_PARAMETERS>
+
+    <LOAD_CASE_FACTORS>
+      ## Load case factors defining a combination
+      COUNT = 2 ; # N. of load cases in the combination
+
+      ## Content of each column:
+      #  A -> Counter (or counter range)
+      #  B -> Load case number (or load case range)
+      #  C -> Load case factor
+      #      A         B                C
+      1         1       0.0015 ;
+      2         2       0.0039 ;
+    </LOAD_CASE_FACTORS>
+
+  </COMBINATION>
+
+  <COMBINATION>
+
+    <COMBINATION_PARAMETERS>
+      COMBINATION_NUMBER = 65 ;
+      COMBINATION_TITLE = Presc. Displ. ;
+      COMBINATION_GROUP = MY_GROUP ;
+      PHASE_NUMBER =  1 ;
+    </COMBINATION_PARAMETERS>
+
+    <LOAD_CASE_FACTORS>
+      ## Load case factors defining a combination
+      COUNT = 2 ; # N. of load cases in the combination
+
+      ## Content of each column:
+      #  A -> Counter (or counter range)
+      #  B -> Load case number (or load case range)
+      #  C -> Load case factor
+      #      A         B                C
+      1         1       0.0015 ;
+      2         2       0.0040 ;
+    </LOAD_CASE_FACTORS>
+
+  </COMBINATION>
+
+  <COMBINATION>
+
+    <COMBINATION_PARAMETERS>
+      COMBINATION_NUMBER = 66 ;
+      COMBINATION_TITLE = Presc. Displ. ;
+      COMBINATION_GROUP = MY_GROUP ;
+      PHASE_NUMBER =  1 ;
+    </COMBINATION_PARAMETERS>
+
+    <LOAD_CASE_FACTORS>
+      ## Load case factors defining a combination
+      COUNT = 2 ; # N. of load cases in the combination
+
+      ## Content of each column:
+      #  A -> Counter (or counter range)
+      #  B -> Load case number (or load case range)
+      #  C -> Load case factor
+      #      A         B                C
+      1         1       0.0015 ;
+      2         2       0.0041 ;
+    </LOAD_CASE_FACTORS>
+
+  </COMBINATION>
+
+  <COMBINATION>
+
+    <COMBINATION_PARAMETERS>
+      COMBINATION_NUMBER = 67 ;
+      COMBINATION_TITLE = Presc. Displ. ;
+      COMBINATION_GROUP = MY_GROUP ;
+      PHASE_NUMBER =  1 ;
+    </COMBINATION_PARAMETERS>
+
+    <LOAD_CASE_FACTORS>
+      ## Load case factors defining a combination
+      COUNT = 2 ; # N. of load cases in the combination
+
+      ## Content of each column:
+      #  A -> Counter (or counter range)
+      #  B -> Load case number (or load case range)
+      #  C -> Load case factor
+      #      A         B                C
+      1         1       0.0015 ;
+      2         2       0.0042 ;
+    </LOAD_CASE_FACTORS>
+
+  </COMBINATION>
+
+  <COMBINATION>
+
+    <COMBINATION_PARAMETERS>
+      COMBINATION_NUMBER = 68 ;
+      COMBINATION_TITLE = Presc. Displ. ;
+      COMBINATION_GROUP = MY_GROUP ;
+      PHASE_NUMBER =  1 ;
+    </COMBINATION_PARAMETERS>
+
+    <LOAD_CASE_FACTORS>
+      ## Load case factors defining a combination
+      COUNT = 2 ; # N. of load cases in the combination
+
+      ## Content of each column:
+      #  A -> Counter (or counter range)
+      #  B -> Load case number (or load case range)
+      #  C -> Load case factor
+      #      A         B                C
+      1         1       0.0015 ;
+      2         2       0.0043 ;
+    </LOAD_CASE_FACTORS>
+
+  </COMBINATION>
+
+  <COMBINATION>
+
+    <COMBINATION_PARAMETERS>
+      COMBINATION_NUMBER = 69 ;
+      COMBINATION_TITLE = Presc. Displ. ;
+      COMBINATION_GROUP = MY_GROUP ;
+      PHASE_NUMBER =  1 ;
+    </COMBINATION_PARAMETERS>
+
+    <LOAD_CASE_FACTORS>
+      ## Load case factors defining a combination
+      COUNT = 2 ; # N. of load cases in the combination
+
+      ## Content of each column:
+      #  A -> Counter (or counter range)
+      #  B -> Load case number (or load case range)
+      #  C -> Load case factor
+      #      A         B                C
+      1         1       0.0015 ;
+      2         2       0.0044 ;
+    </LOAD_CASE_FACTORS>
+
+  </COMBINATION>
+
+  <COMBINATION>
+
+    <COMBINATION_PARAMETERS>
+      COMBINATION_NUMBER = 70 ;
+      COMBINATION_TITLE = Presc. Displ. ;
+      COMBINATION_GROUP = MY_GROUP ;
+      PHASE_NUMBER =  1 ;
+    </COMBINATION_PARAMETERS>
+
+    <LOAD_CASE_FACTORS>
+      ## Load case factors defining a combination
+      COUNT = 2 ; # N. of load cases in the combination
+
+      ## Content of each column:
+      #  A -> Counter (or counter range)
+      #  B -> Load case number (or load case range)
+      #  C -> Load case factor
+      #      A         B                C
+      1         1       0.0015 ;
+      2         2       0.0045 ;
+    </LOAD_CASE_FACTORS>
+
+  </COMBINATION>
+
+
+
+
+
+  <COMBINATION>
+
+    <COMBINATION_PARAMETERS>
+      COMBINATION_NUMBER = 71 ;
+      COMBINATION_TITLE = Presc. Displ. ;
+      COMBINATION_GROUP = MY_GROUP ;
+      PHASE_NUMBER =  1 ;
+    </COMBINATION_PARAMETERS>
+
+    <LOAD_CASE_FACTORS>
+      ## Load case factors defining a combination
+      COUNT = 2 ; # N. of load cases in the combination
+
+      ## Content of each column:
+      #  A -> Counter (or counter range)
+      #  B -> Load case number (or load case range)
+      #  C -> Load case factor
+      #      A         B                C
+      1         1       0.0015 ;
+      2         2       0.0047 ;
+    </LOAD_CASE_FACTORS>
+
+  </COMBINATION>
+
+  <COMBINATION>
+
+    <COMBINATION_PARAMETERS>
+      COMBINATION_NUMBER = 72 ;
+      COMBINATION_TITLE = Presc. Displ. ;
+      COMBINATION_GROUP = MY_GROUP ;
+      PHASE_NUMBER =  1 ;
+    </COMBINATION_PARAMETERS>
+
+    <LOAD_CASE_FACTORS>
+      ## Load case factors defining a combination
+      COUNT = 2 ; # N. of load cases in the combination
+
+      ## Content of each column:
+      #  A -> Counter (or counter range)
+      #  B -> Load case number (or load case range)
+      #  C -> Load case factor
+      #      A         B                C
+      1         1       0.0015 ;
+      2         2       0.0049 ;
+    </LOAD_CASE_FACTORS>
+
+  </COMBINATION>
+
+  <COMBINATION>
+
+    <COMBINATION_PARAMETERS>
+      COMBINATION_NUMBER = 73 ;
+      COMBINATION_TITLE = Presc. Displ. ;
+      COMBINATION_GROUP = MY_GROUP ;
+      PHASE_NUMBER =  1 ;
+    </COMBINATION_PARAMETERS>
+
+    <LOAD_CASE_FACTORS>
+      ## Load case factors defining a combination
+      COUNT = 2 ; # N. of load cases in the combination
+
+      ## Content of each column:
+      #  A -> Counter (or counter range)
+      #  B -> Load case number (or load case range)
+      #  C -> Load case factor
+      #      A         B                C
+      1         1       0.0015 ;
+      2         2       0.0051 ;
+    </LOAD_CASE_FACTORS>
+
+  </COMBINATION>
+
+  <COMBINATION>
+
+    <COMBINATION_PARAMETERS>
+      COMBINATION_NUMBER = 74 ;
+      COMBINATION_TITLE = Presc. Displ. ;
+      COMBINATION_GROUP = MY_GROUP ;
+      PHASE_NUMBER =  1 ;
+    </COMBINATION_PARAMETERS>
+
+    <LOAD_CASE_FACTORS>
+      ## Load case factors defining a combination
+      COUNT = 2 ; # N. of load cases in the combination
+
+      ## Content of each column:
+      #  A -> Counter (or counter range)
+      #  B -> Load case number (or load case range)
+      #  C -> Load case factor
+      #      A         B                C
+      1         1       0.0015 ;
+      2         2       0.0053 ;
+    </LOAD_CASE_FACTORS>
+
+  </COMBINATION>
+
+  <COMBINATION>
+
+    <COMBINATION_PARAMETERS>
+      COMBINATION_NUMBER = 75 ;
+      COMBINATION_TITLE = Presc. Displ. ;
+      COMBINATION_GROUP = MY_GROUP ;
+      PHASE_NUMBER =  1 ;
+    </COMBINATION_PARAMETERS>
+
+    <LOAD_CASE_FACTORS>
+      ## Load case factors defining a combination
+      COUNT = 2 ; # N. of load cases in the combination
+
+      ## Content of each column:
+      #  A -> Counter (or counter range)
+      #  B -> Load case number (or load case range)
+      #  C -> Load case factor
+      #      A         B                C
+      1         1       0.0015 ;
+      2         2       0.0055 ;
+    </LOAD_CASE_FACTORS>
+
+  </COMBINATION>
+
+  <COMBINATION>
+
+    <COMBINATION_PARAMETERS>
+      COMBINATION_NUMBER = 76 ;
+      COMBINATION_TITLE = Presc. Displ. ;
+      COMBINATION_GROUP = MY_GROUP ;
+      PHASE_NUMBER =  1 ;
+    </COMBINATION_PARAMETERS>
+
+    <LOAD_CASE_FACTORS>
+      ## Load case factors defining a combination
+      COUNT = 2 ; # N. of load cases in the combination
+
+      ## Content of each column:
+      #  A -> Counter (or counter range)
+      #  B -> Load case number (or load case range)
+      #  C -> Load case factor
+      #      A         B                C
+      1         1       0.0015 ;
+      2         2       0.0057 ;
+    </LOAD_CASE_FACTORS>
+
+  </COMBINATION>
+
+  <COMBINATION>
+
+    <COMBINATION_PARAMETERS>
+      COMBINATION_NUMBER = 77 ;
+      COMBINATION_TITLE = Presc. Displ. ;
+      COMBINATION_GROUP = MY_GROUP ;
+      PHASE_NUMBER =  1 ;
+    </COMBINATION_PARAMETERS>
+
+    <LOAD_CASE_FACTORS>
+      ## Load case factors defining a combination
+      COUNT = 2 ; # N. of load cases in the combination
+
+      ## Content of each column:
+      #  A -> Counter (or counter range)
+      #  B -> Load case number (or load case range)
+      #  C -> Load case factor
+      #      A         B                C
+      1         1       0.0015 ;
+      2         2       0.0059 ;
+    </LOAD_CASE_FACTORS>
+
+  </COMBINATION>
+
+  <COMBINATION>
+
+    <COMBINATION_PARAMETERS>
+      COMBINATION_NUMBER = 78 ;
+      COMBINATION_TITLE = Presc. Displ. ;
+      COMBINATION_GROUP = MY_GROUP ;
+      PHASE_NUMBER =  1 ;
+    </COMBINATION_PARAMETERS>
+
+    <LOAD_CASE_FACTORS>
+      ## Load case factors defining a combination
+      COUNT = 2 ; # N. of load cases in the combination
+
+      ## Content of each column:
+      #  A -> Counter (or counter range)
+      #  B -> Load case number (or load case range)
+      #  C -> Load case factor
+      #      A         B                C
+      1         1       0.0015 ;
+      2         2       0.0061 ;
+    </LOAD_CASE_FACTORS>
+
+  </COMBINATION>
+
+  <COMBINATION>
+
+    <COMBINATION_PARAMETERS>
+      COMBINATION_NUMBER = 79 ;
+      COMBINATION_TITLE = Presc. Displ. ;
+      COMBINATION_GROUP = MY_GROUP ;
+      PHASE_NUMBER =  1 ;
+    </COMBINATION_PARAMETERS>
+
+    <LOAD_CASE_FACTORS>
+      ## Load case factors defining a combination
+      COUNT = 2 ; # N. of load cases in the combination
+
+      ## Content of each column:
+      #  A -> Counter (or counter range)
+      #  B -> Load case number (or load case range)
+      #  C -> Load case factor
+      #      A         B                C
+      1         1       0.0015 ;
+      2         2       0.0063 ;
+    </LOAD_CASE_FACTORS>
+
+  </COMBINATION>
+
+  <COMBINATION>
+
+    <COMBINATION_PARAMETERS>
+      COMBINATION_NUMBER = 80 ;
+      COMBINATION_TITLE = Presc. Displ. ;
+      COMBINATION_GROUP = MY_GROUP ;
+      PHASE_NUMBER =  1 ;
+    </COMBINATION_PARAMETERS>
+
+    <LOAD_CASE_FACTORS>
+      ## Load case factors defining a combination
+      COUNT = 2 ; # N. of load cases in the combination
+
+      ## Content of each column:
+      #  A -> Counter (or counter range)
+      #  B -> Load case number (or load case range)
+      #  C -> Load case factor
+      #      A         B                C
+      1         1       0.0015 ;
+      2         2       0.0065 ;
+    </LOAD_CASE_FACTORS>
+
+  </COMBINATION>
+  
+  
+  
+  
+  
+  
+  
+</LOAD_CASE_COMBINATIONS>
+
+</FEMIX_DATA_FILE_V4.0>
