@@ -4,6 +4,15 @@
 
 FEMIX Pre-Post was developed as a graphical environment to support the preparation of finite element models, mesh-generation workflows, FEMIX input data, analysis execution and visualization of numerical results. The application was developed in the context of research in structural engineering, including finite element modelling of concrete and fibre-reinforced concrete structural systems.
 
+## Video Tutorials
+
+### Software Introduction
+[Software Introduction](https://youtu.be/iLN5GDLJ8jo?si=fQOdEINKnw6l9yvj)
+
+### Tutorial
+[Simulating the behavior of concrete beams flexurally reinforced with GFRP bars by FEMIX PrePost
+](https://youtu.be/_vkdU3QoaBo?si=xuNjH8OeGr0qCTNu)
+
 ## Capabilities
 
 The associated project documentation describes the following workflow and capabilities. The exact functionality available in each GUI module should be verified against the source code and tested with the required dependencies.
