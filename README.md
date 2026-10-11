@@ -95,6 +95,8 @@ FEMIX Pre-Post was developed as part of research on computational modelling and 
 
 For academic use, cite the version of the software that you used. See [`CITATION.cff`](CITATION.cff); after publishing a release on GitHub and archiving it in Zenodo, update the citation metadata with the repository URL and released version as appropriate.
 
+[![DOI](https://zenodo.org/badge/1414121496.svg)](https://doi.org/10.5281/zenodo.23297715)
+
 ## Project status
 
 Research software originally developed for Windows and .NET Framework 4.8. Before wider use, the project needs a reproducible dependency setup, a clean build on another machine, documented dependency versions, and tests of representative model/mesh/solver/result workflows.
