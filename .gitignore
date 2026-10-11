@@ -45,11 +45,6 @@ _ReSharper*/
 Thumbs.db
 .DS_Store
 
-# Local deployment binaries and dependencies have not been cleared for redistribution.
-# The current classic project references selected assemblies under Exe/, so a clone
-# will require approved dependency files there or updated reproducible references.
-/Exe/**
-!/Exe/.gitkeep
 
 # Locally generated installer; distribute as a reviewed GitHub Release asset instead.
 /Femix_PrePost-Setup.msi
